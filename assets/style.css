@@ -70,7 +70,8 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
   font-weight:800;padding:.55rem 1rem;border-radius:999px;font-size:.95rem;
   white-space:nowrap;
 }
-.btn-tel-cab:hover{background:var(--ambar-osc)}
+.btn-tel-cab{transition:background .12s ease, box-shadow .18s ease}
+.btn-tel-cab:hover{background:var(--ambar-osc);box-shadow:0 0 16px rgba(245,166,35,.6)}
 
 .btn-menu{
   display:inline-flex;align-items:center;justify-content:center;
@@ -111,13 +112,13 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
   display:inline-flex;align-items:center;justify-content:center;gap:.5rem;
   padding:.85rem 1.5rem;border-radius:12px;text-decoration:none;
   font-weight:800;font-size:1.02rem;border:2px solid transparent;cursor:pointer;
-  transition:transform .12s ease, background .12s ease;
+  transition:transform .12s ease, background .12s ease, box-shadow .18s ease, filter .18s ease;
 }
 .btn:active{transform:scale(.97)}
 .btn-primario{background:var(--ambar);color:var(--azul-900)}
-.btn-primario:hover{background:var(--ambar-osc)}
+.btn-primario:hover{background:var(--ambar-osc);box-shadow:0 0 22px rgba(245,166,35,.65);filter:brightness(1.08)}
 .btn-borde{background:transparent;color:var(--blanco);border-color:rgba(255,255,255,.45)}
-.btn-borde:hover{border-color:var(--blanco);background:rgba(255,255,255,.07)}
+.btn-borde:hover{border-color:var(--blanco);background:rgba(255,255,255,.07);box-shadow:0 0 18px rgba(255,255,255,.35)}
 .btn svg{width:18px;height:18px;fill:currentColor}
 
 /* ---------- Franja de confianza ---------- */
@@ -172,7 +173,12 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 }
 
 /* ---------- Calendario ---------- */
-.leyenda-cal{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.3rem}
+.cal-marco{
+  background:var(--blanco);border:1px solid var(--linea);border-radius:var(--radio);
+  overflow:hidden;box-shadow:var(--sombra);
+}
+.cal-marco iframe{display:block;width:100%;height:620px;border:0}
+.cal-escritorio{display:none}
 .rejilla-cal{display:grid;grid-template-columns:1fr;gap:.7rem}
 .dia{
   background:var(--blanco);border:1px solid var(--linea);border-radius:12px;
@@ -305,9 +311,11 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
   .rejilla-cursos{grid-template-columns:repeat(3,1fr)}
   .rejilla-cal{grid-template-columns:repeat(2,1fr)}
   .rejilla-contacto{grid-template-columns:repeat(2,1fr)}
-  .pie-int{grid-template-columns:2fr 1.5fr 1.5fr 1fr}
+  .pie-int{grid-template-columns:2fr 2fr 1fr}
   .seccion{padding:3.4rem 0}
   .heroe{padding:4.2rem 0 4.6rem}
+  .cal-escritorio{display:block}
+  .cal-movil{display:none}
 }
 @media (min-width:1000px){
   .rejilla-cal{grid-template-columns:repeat(3,1fr)}
