@@ -1,0 +1,53 @@
+# ============================================================
+# www.tpcmetal.es — configuracion Apache
+# Objetivo: NO perder ninguna URL indexada.
+# ============================================================
+
+Options -MultiViews
+DirectoryIndex index.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # 1) Forzar HTTPS
+  RewriteCond %{HTTPS} !=on
+  RewriteRule ^(.*)$ https://www.tpcmetal.es/$1 [R=301,L]
+
+  # 2) Forzar www
+  RewriteCond %{HTTP_HOST} !^www\. [NC]
+  RewriteRule ^(.*)$ https://www.tpcmetal.es/$1 [R=301,L]
+
+  # 3) Alias sin acentos -> URL canonica con acentos (301)
+  RewriteRule ^como-llegar/?$ /c%C3%B3mo-llegar/ [R=301,L,NE]
+  RewriteRule ^politica-de-cookies/?$ /pol%C3%ADtica-de-cookies/ [R=301,L,NE]
+
+  # 4) Anadir barra final a los directorios conocidos
+  RewriteRule ^contacto$ /contacto/ [R=301,L]
+  RewriteRule ^aviso-legal$ /aviso-legal/ [R=301,L]
+  RewriteRule ^sitemap$ /sitemap/ [R=301,L]
+</IfModule>
+
+# 404 propio (opcional: crear /404.html)
+# ErrorDocument 404 /404.html
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/javascript application/json image/svg+xml
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css                "access plus 1 year"
+  ExpiresByType image/svg+xml           "access plus 1 year"
+  ExpiresByType image/jpeg              "access plus 1 year"
+  ExpiresByType image/png               "access plus 1 year"
+  ExpiresByType text/html               "access plus 1 hour"
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header set X-Frame-Options "SAMEORIGIN"
+</IfModule>
+
+AddDefaultCharset UTF-8
+AddType text/plain .txt

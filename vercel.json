@@ -1,0 +1,14 @@
+{
+  "cleanUrls": false,
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/como-llegar", "destination": "/c%C3%B3mo-llegar/", "permanent": true },
+    { "source": "/politica-de-cookies", "destination": "/pol%C3%ADtica-de-cookies/", "permanent": true }
+  ],
+  "headers": [
+    { "source": "/(.*)", "headers": [
+      { "key": "X-Content-Type-Options", "value": "nosniff" },
+      { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+    ]}
+  ]
+}

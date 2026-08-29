@@ -1,0 +1,8 @@
+# Netlify / Cloudflare Pages — alias sin acentos hacia la URL canonica
+/como-llegar             /c%C3%B3mo-llegar/            301
+/como-llegar/            /c%C3%B3mo-llegar/            301
+/politica-de-cookies     /pol%C3%ADtica-de-cookies/    301
+/politica-de-cookies/    /pol%C3%ADtica-de-cookies/    301
+/contacto                /contacto/                    301
+/aviso-legal             /aviso-legal/                 301
+/sitemap                 /sitemap/                     301

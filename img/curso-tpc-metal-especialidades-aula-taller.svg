@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Ilustracion de taller de formacion presencial para los cursos TPC del sector del metal">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EDEAE4"/><stop offset="1" stop-color="#D9D4CB"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B9B2A6"/><stop offset="1" stop-color="#8E887E"/>
+    </linearGradient>
+    <linearGradient id="beamv" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4C5764"/><stop offset="0.5" stop-color="#8C97A2"/><stop offset="1" stop-color="#3A4450"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#wall)"/>
+  <!-- Ventanales industriales -->
+  <g>
+    <rect x="70" y="70" width="300" height="300" fill="#CFE0EC" opacity="0.75"/>
+    <rect x="430" y="70" width="300" height="300" fill="#CFE0EC" opacity="0.6"/>
+    <rect x="790" y="70" width="300" height="300" fill="#CFE0EC" opacity="0.45"/>
+    <g stroke="#6B7480" stroke-width="6" fill="none">
+      <rect x="70" y="70" width="300" height="300"/><rect x="430" y="70" width="300" height="300"/><rect x="790" y="70" width="300" height="300"/>
+      <path d="M220 70V370M70 220H370M580 70V370M430 220H730M940 70V370M790 220H1090"/>
+    </g>
+  </g>
+  <!-- Suelo -->
+  <rect x="0" y="560" width="1200" height="240" fill="url(#floor)"/>
+  <path d="M0 560H1200" stroke="#6E675E" stroke-width="0" />
+  <!-- Franja de seguridad -->
+  <g>
+    <rect x="0" y="596" width="1200" height="26" fill="#E4A93C"/>
+    <g fill="#1B1E22" opacity="0.85">
+      <path d="M0 596 L34 596 L14 622 L-20 622 Z"/><path d="M60 596 L94 596 L74 622 L40 622 Z"/>
+      <path d="M120 596 L154 596 L134 622 L100 622 Z"/><path d="M180 596 L214 596 L194 622 L160 622 Z"/>
+      <path d="M240 596 L274 596 L254 622 L220 622 Z"/><path d="M300 596 L334 596 L314 622 L280 622 Z"/>
+      <path d="M360 596 L394 596 L374 622 L340 622 Z"/><path d="M420 596 L454 596 L434 622 L400 622 Z"/>
+      <path d="M480 596 L514 596 L494 622 L460 622 Z"/><path d="M540 596 L574 596 L554 622 L520 622 Z"/>
+      <path d="M600 596 L634 596 L614 622 L580 622 Z"/><path d="M660 596 L694 596 L674 622 L640 622 Z"/>
+      <path d="M720 596 L754 596 L734 622 L700 622 Z"/><path d="M780 596 L814 596 L794 622 L760 622 Z"/>
+      <path d="M840 596 L874 596 L854 622 L820 622 Z"/><path d="M900 596 L934 596 L914 622 L880 622 Z"/>
+      <path d="M960 596 L994 596 L974 622 L940 622 Z"/><path d="M1020 596 L1054 596 L1034 622 L1000 622 Z"/>
+      <path d="M1080 596 L1114 596 L1094 622 L1060 622 Z"/><path d="M1140 596 L1174 596 L1154 622 L1120 622 Z"/>
+    </g>
+  </g>
+  <!-- Pilar metalico -->
+  <rect x="530" y="120" width="72" height="440" fill="url(#beamv)"/>
+  <rect x="530" y="120" width="10" height="440" fill="#AAB4BE" opacity="0.5"/>
+  <rect x="592" y="120" width="10" height="440" fill="#232C36" opacity="0.6"/>
+  <g fill="#232C36" opacity="0.5">
+    <circle cx="566" cy="190" r="7"/><circle cx="566" cy="300" r="7"/><circle cx="566" cy="410" r="7"/><circle cx="566" cy="520" r="7"/>
+  </g>
+  <!-- Banco de trabajo -->
+  <rect x="120" y="450" width="330" height="24" rx="4" fill="#2F3A46"/>
+  <rect x="140" y="474" width="20" height="86" fill="#3D4854"/>
+  <rect x="410" y="474" width="20" height="86" fill="#3D4854"/>
+  <!-- Casco EPI sobre el banco -->
+  <g transform="translate(196 400)">
+    <path d="M0 50 q0 -50 54 -50 q54 0 54 50 z" fill="#E4A93C"/>
+    <rect x="-12" y="48" width="132" height="12" rx="6" fill="#C98F26"/>
+    <path d="M20 20 q34 -22 68 0" stroke="#C98F26" stroke-width="5" fill="none"/>
+  </g>
+  <!-- Panel / pizarra -->
+  <rect x="700" y="400" width="380" height="160" rx="4" fill="#1C2530"/>
+  <rect x="700" y="400" width="380" height="160" rx="4" fill="none" stroke="#6B7480" stroke-width="5"/>
+  <g stroke="#C8410D" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M736 446H900"/><path d="M736 480H970"/>
+  </g>
+  <g stroke="#95A0AB" stroke-width="5" stroke-linecap="round" fill="none">
+    <path d="M736 512H1030"/><path d="M736 538H860"/>
+  </g>
+  <!-- Chispas de soldadura al fondo -->
+  <g fill="#E8862F" opacity="0.55">
+    <circle cx="880" cy="330" r="4"/><circle cx="910" cy="306" r="3"/><circle cx="856" cy="300" r="2.6"/>
+    <circle cx="932" cy="342" r="2.2"/><circle cx="900" cy="358" r="2"/>
+  </g>
+</svg>

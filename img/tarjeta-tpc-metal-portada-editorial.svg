@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Ilustracion editorial de estructura metalica y chispas de soldadura para la Tarjeta TPC del sector del metal">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1420"/>
+      <stop offset="0.55" stop-color="#16263A"/>
+      <stop offset="1" stop-color="#2A3D4F"/>
+    </linearGradient>
+    <linearGradient id="skyb" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A121C"/>
+      <stop offset="0.5" stop-color="#152539"/>
+      <stop offset="1" stop-color="#31404F"/>
+    </linearGradient>
+    <linearGradient id="steelA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3C4956"/>
+      <stop offset="0.42" stop-color="#7D8994"/>
+      <stop offset="0.58" stop-color="#A8B2BB"/>
+      <stop offset="1" stop-color="#414E5B"/>
+    </linearGradient>
+    <linearGradient id="steelB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#94A0AB"/>
+      <stop offset="0.5" stop-color="#5A6773"/>
+      <stop offset="1" stop-color="#2E3A46"/>
+    </linearGradient>
+    <radialGradient id="arc" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFE6C2" stop-opacity="0.95"/>
+      <stop offset="0.35" stop-color="#F79A45" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#C8410D" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="blueprint" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" fill="none" stroke="#5D7590" stroke-width="0.6" stroke-opacity="0.16"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#skyb)"/>
+  <rect width="1600" height="900" fill="url(#blueprint)"/>
+
+  <!-- Viga diagonal principal -->
+  <g opacity="0.96">
+    <polygon points="-40,690 1240,190 1300,300 20,800" fill="url(#steelA)"/>
+    <polygon points="-40,690 1240,190 1250,212 -30,712" fill="#B9C4CE" opacity="0.45"/>
+    <polygon points="20,800 1300,300 1292,282 12,782" fill="#0D1620" opacity="0.5"/>
+  </g>
+
+  <!-- Remaches -->
+  <g fill="#0F1A25" opacity="0.55">
+    <circle cx="120" cy="712" r="7"/><circle cx="300" cy="642" r="7"/><circle cx="480" cy="572" r="7"/>
+    <circle cx="660" cy="502" r="7"/><circle cx="840" cy="432" r="7"/><circle cx="1020" cy="362" r="7"/>
+    <circle cx="1200" cy="292" r="7"/>
+  </g>
+
+
+  <!-- Arco de soldadura -->
+  <circle cx="1090" cy="352" r="270" fill="url(#arc)"/>
+  <circle cx="1090" cy="352" r="16" fill="#FFF3E0" opacity="0.92"/>
+  <circle cx="1090" cy="352" r="44" fill="#FFC77D" opacity="0.28"/>
+
+  <!-- Chispas -->
+  <g stroke="#F79A45" stroke-linecap="round" opacity="0.85">
+    <path d="M1090 352 L1236 214" stroke-width="2.4" opacity="0.7"/>
+    <path d="M1090 352 L1268 330" stroke-width="1.8" opacity="0.55"/>
+    <path d="M1090 352 L1206 480" stroke-width="2.1" opacity="0.6"/>
+    <path d="M1090 352 L1004 214" stroke-width="1.6" opacity="0.5"/>
+    <path d="M1090 352 L940 452" stroke-width="1.9" opacity="0.55"/>
+    <path d="M1090 352 L1130 560" stroke-width="1.5" opacity="0.45"/>
+  </g>
+  <g fill="#FFD9A6">
+    <circle cx="1252" cy="206" r="3.4" opacity="0.9"/><circle cx="1288" cy="326" r="2.6" opacity="0.75"/>
+    <circle cx="1220" cy="498" r="3" opacity="0.8"/><circle cx="986" cy="200" r="2.4" opacity="0.6"/>
+    <circle cx="922" cy="466" r="2.8" opacity="0.7"/><circle cx="1142" cy="580" r="2.2" opacity="0.55"/>
+    <circle cx="1320" cy="252" r="1.8" opacity="0.5"/><circle cx="880" cy="380" r="2" opacity="0.5"/>
+  </g>
+
+  <!-- Silueta de tarjeta profesional (abstracta, sin marca) -->
+  <g transform="translate(150 250) rotate(-8)" opacity="0.92">
+    <rect x="0" y="0" width="330" height="208" rx="14" fill="#0E1720" stroke="#8794A1" stroke-width="1.6"/>
+    <rect x="0" y="0" width="330" height="52" rx="14" fill="#C8410D"/>
+    <rect x="0" y="38" width="330" height="14" fill="#C8410D"/>
+    <rect x="24" y="80" width="82" height="94" rx="6" fill="#2A3644" stroke="#55636F" stroke-width="1"/>
+    <circle cx="65" cy="112" r="18" fill="#55636F"/>
+    <path d="M38 168 q27 -34 54 0 z" fill="#55636F"/>
+    <rect x="126" y="84" width="176" height="9" rx="4.5" fill="#7C8996"/>
+    <rect x="126" y="106" width="140" height="9" rx="4.5" fill="#5C6975"/>
+    <rect x="126" y="128" width="164" height="9" rx="4.5" fill="#5C6975"/>
+    <rect x="126" y="152" width="98" height="9" rx="4.5" fill="#C8410D" opacity="0.8"/>
+  </g>
+
+</svg>

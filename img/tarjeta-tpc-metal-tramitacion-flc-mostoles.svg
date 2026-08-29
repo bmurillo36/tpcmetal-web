@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Plano esquematico de la ruta desde el centro de formacion de Mostoles al punto de tramitacion de la Tarjeta TPC">
+  <defs>
+    <pattern id="bp" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#8FA3B8" stroke-width="0.7" stroke-opacity="0.30"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="#152539"/>
+  <rect width="1200" height="675" fill="url(#bp)"/>
+  <!-- Manzanas -->
+  <g fill="#1E3049" opacity="0.9">
+    <rect x="80" y="70" width="230" height="150" rx="4"/><rect x="360" y="70" width="180" height="150" rx="4"/>
+    <rect x="700" y="90" width="210" height="130" rx="4"/><rect x="960" y="70" width="160" height="150" rx="4"/>
+    <rect x="80" y="420" width="200" height="180" rx="4"/><rect x="330" y="450" width="240" height="150" rx="4"/>
+    <rect x="720" y="430" width="190" height="170" rx="4"/><rect x="960" y="460" width="160" height="140" rx="4"/>
+  </g>
+  <!-- Viario -->
+  <g stroke="#33475F" stroke-width="26" stroke-linecap="round" fill="none">
+    <path d="M0 300H1200"/><path d="M620 0V675"/><path d="M0 380H1200" stroke-width="14"/>
+  </g>
+  <!-- Ruta destacada -->
+  <path d="M200 520 L200 340 L620 340 L620 160 L1010 160" fill="none" stroke="#C8410D" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="26 16"/>
+  <!-- Punto A: centro de formacion -->
+  <g transform="translate(200 520)">
+    <circle r="34" fill="#C8410D"/><circle r="34" fill="none" stroke="#FFD9A6" stroke-width="3" opacity="0.65"/>
+    <path d="M-13 8 v-14 l13 -12 l13 12 v14 z" fill="#FFF3E6"/>
+  </g>
+  <text x="200" y="600" text-anchor="middle" fill="#E7EDF3" font-family="Helvetica,Arial,sans-serif" font-size="23" font-weight="700" letter-spacing="2.5">CENTRO · MÓSTOLES</text>
+  <text x="200" y="628" text-anchor="middle" fill="#8FA3B8" font-family="Helvetica,Arial,sans-serif" font-size="17" letter-spacing="1.4">C/ La Fragua 1</text>
+  <!-- Punto B: tramitacion -->
+  <g transform="translate(1010 160)">
+    <circle r="34" fill="#E7EDF3"/><circle r="34" fill="none" stroke="#C8410D" stroke-width="3"/>
+    <rect x="-15" y="-11" width="30" height="21" rx="3" fill="#152539"/>
+    <rect x="-15" y="-11" width="30" height="7" rx="3" fill="#C8410D"/>
+  </g>
+  <text x="1010" y="240" text-anchor="middle" fill="#E7EDF3" font-family="Helvetica,Arial,sans-serif" font-size="23" font-weight="700" letter-spacing="2.5">TRAMITACIÓN TPC</text>
+  <text x="1010" y="268" text-anchor="middle" fill="#8FA3B8" font-family="Helvetica,Arial,sans-serif" font-size="17" letter-spacing="1.4">C/ Cámara de la Industria 23</text>
+  <!-- Rosa de los vientos -->
+  <g transform="translate(1110 600)" opacity="0.7">
+    <circle r="30" fill="none" stroke="#8FA3B8" stroke-width="2"/>
+    <path d="M0 -26 L7 0 L0 26 L-7 0 Z" fill="#C8410D"/>
+    <text x="0" y="-36" text-anchor="middle" fill="#8FA3B8" font-family="Helvetica,Arial,sans-serif" font-size="15" font-weight="700">N</text>
+  </g>
+</svg>
