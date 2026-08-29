@@ -725,3 +725,69 @@ figure{ margin:0; }
 @media (max-width:620px){
   .cover__lema{ font-size:1rem; max-width:none; }
 }
+
+/* ==========================================================================
+   22. CURSOS POR SEMANAS (bloque estático generado por herramientas/cursos.py)
+   Los nombres de clase los fija el generador: no renombrar.
+   ========================================================================== */
+.cursos-nota{
+  font-size:var(--t-small); color:var(--ink-soft);
+  max-width:var(--measure); margin:0 0 var(--space-l);
+}
+.cursos-semanas .semana{ margin-bottom:var(--space-l); break-inside:avoid; }
+.semana-titulo{
+  font-family:var(--font-text);
+  font-size:var(--t-caption); font-weight:700;
+  letter-spacing:.2em; text-transform:uppercase; color:var(--ember);
+  margin:0 0 var(--space-s);
+  padding-bottom:10px; border-bottom:2px solid var(--ink);
+}
+.cursos-semanas .dia{
+  display:grid;
+  grid-template-columns:minmax(0,2.6fr) minmax(0,7fr);
+  gap:var(--col-gap);
+  align-items:start;
+  padding-block:clamp(16px,1.8vw,22px);
+  border-bottom:1px solid var(--rule);
+}
+.dia-titulo{
+  margin:0;
+  font-family:var(--font-display);
+  font-size:1.12rem; font-weight:600; line-height:1.25;
+  display:flex; flex-direction:column; gap:2px;
+}
+.dia-nombre{ color:var(--ink); }
+.dia-titulo time{
+  font-family:var(--font-text);
+  font-size:var(--t-caption); font-weight:600;
+  letter-spacing:.1em; color:var(--steel);
+}
+.dia-cursos{ list-style:none; margin:0; padding:0; }
+.dia-cursos li{
+  margin:0 0 .5em;
+  font-size:var(--t-small); line-height:1.55; color:var(--ink-soft);
+  display:flex; flex-wrap:wrap; align-items:baseline; gap:.5em;
+}
+.dia-cursos li:last-child{ margin-bottom:0; }
+.curso-hora{
+  font-family:var(--font-text);
+  font-size:var(--t-caption); font-weight:700; letter-spacing:.04em;
+  color:var(--ink);
+  background:var(--paper); border:1px solid var(--rule);
+  padding:2px 8px; border-radius:2px; white-space:nowrap;
+}
+.curso-nombre{ color:var(--ink); font-weight:520; }
+.curso-periodo{ color:var(--steel); font-size:var(--t-caption); }
+.curso-grupos{
+  font-size:.7rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase;
+  color:var(--ember); border:1px solid var(--ember);
+  padding:1px 7px; border-radius:999px; white-space:nowrap;
+}
+.cursos-semanas .dia.online .dia-nombre{ color:var(--ember); }
+.cursos-semanas .dia.online .curso-hora{ display:none; }
+
+@media (max-width:760px){
+  .cursos-semanas .dia{ grid-template-columns:1fr; gap:10px; padding-block:18px; }
+  .dia-titulo{ flex-direction:row; align-items:baseline; gap:.6em; }
+  .dia-cursos li{ gap:.4em; }
+}
