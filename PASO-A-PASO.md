@@ -38,34 +38,48 @@ verificación falla, vete al Camino B: son 10 minutos y el SEO queda intacto.
 
 ## 1. Antes de nada: activar el formulario (5 minutos, obligatorio)
 
-Los dos formularios (portada y contacto) envían a **mbarberosala@gmail.com**
+Los dos formularios (portada y contacto) envian a **mbarberosala@gmail.com**
 mediante FormSubmit, **sin captcha**, como pediste. FormSubmit exige una
-activación única:
+activacion unica:
 
 1. Abre la web ya publicada (o el ensayo local del paso 2).
-2. Rellena el formulario con datos de prueba y envíalo.
-3. FormSubmit mandará un correo a **mbarberosala@gmail.com** con el asunto
-   *"Confirm your email"*. Abre ese correo y pulsa el botón de activación.
-4. Vuelve a enviar el formulario. A partir de ahí llegan todos los avisos.
+2. Rellena el formulario con datos de prueba y envialo.
+3. FormSubmit mandara un correo a **mbarberosala@gmail.com** con el asunto
+   *"Confirm your email"*. Abrelo y pulsa el boton de activacion.
+4. Vuelve a enviar el formulario. A partir de ahi llegan todos los avisos.
 
-> **Hasta que no hagas ese clic, los formularios no entregan nada.** Es el único
-> paso manual imprescindible.
+> **Hasta que no hagas ese clic, los formularios no entregan nada.**
 
-**Si prefieres ocultar el correo del código fuente** (recomendable contra el
-spam): entra en <https://formsubmit.co>, genera el *alias* aleatorio para
-mbarberosala@gmail.com y sustituye en los dos ficheros
+### Por que el formulario esta montado exactamente asi
 
-```
-https://formsubmit.co/mbarberosala@gmail.com
-```
+Tu Suite lee el buzon mbarberosala@gmail.com y mete los avisos en el CRM con
+`modulo_crm/crm/parser.py`. Probe los dos formularios contra ese parser. Dos
+cosas conviene respetar si algun dia tocas el formulario:
 
-por
+- **El asunto** contiene una de las frases que reconoce `es_lead()`:
+  `Nuevo formulario de contacto desde tpcmetal.es`. Asi lo aceptan tanto el
+  parser antiguo como el nuevo.
+- **Los nombres de campo**, en este orden:
+  `Nombre, Email, Telefono, Curso, Mensaje, Acepto, Origen`.
+  El de consentimiento **se llama `Acepto`** porque el parser lo usa para saber
+  donde termina el mensaje. Con un nombre largo como
+  `Acepta_politica_privacidad`, el campo Mensaje se traga el consentimiento y
+  el origen.
 
-```
-https://formsubmit.co/TU_ALIAS_AQUI
-```
+Verificado: `es_lead` da True y salen limpios nombre, email, telefono, curso y
+mensaje. El campo `Curso` es un extra: el parser tambien lo captura, asi que en
+el CRM veras que curso pidio cada persona.
 
-Ficheros a tocar: `index.html` (línea del `<form ...>`) y `contacto/index.html`.
+> **Nota:** hay una copia **desactualizada** del parser en
+> `Desktop\CLAUDE\Prevencion Siglo 21 SUITE DEFINITIVA...\modulo_crm\crm\parser.py`.
+> La que corre en produccion (VPS, `/opt/suite`) es mas nueva y reconoce
+> FormSubmit directamente. Si alguna vez pruebas cosas contra la copia local,
+> actualizala antes con `git pull` de Suite20.
+
+**Si prefieres ocultar el correo del codigo fuente** (recomendable contra el
+spam): entra en <https://formsubmit.co>, genera el alias para
+mbarberosala@gmail.com y sustituye `https://formsubmit.co/mbarberosala@gmail.com`
+por `https://formsubmit.co/TU_ALIAS_AQUI` en `index.html` y `contacto/index.html`.
 
 ---
 
@@ -383,3 +397,46 @@ que es factor de posicionamiento.
 Con el servidor local arrancado, en Chrome: F12 → icono de móvil
 (Ctrl+Shift+M) → elige *iPhone 14 Pro* → recarga. O directamente desde tu
 teléfono, en la misma wifi, entrando a `http://IP-DE-TU-PC:8899/`.
+
+---
+
+## 13. Los cursos vienen de tu hoja de Google
+
+El bloque de convocatorias de la portada **no se escribe a mano**. Lo genera un
+script a partir de tu hoja:
+
+<https://docs.google.com/spreadsheets/d/14mcRaWiZxxqZe0Q_Jucohp-oGbQGyQhxz2SwLI1Zc9c>
+
+Para actualizar la web cuando cambies la hoja:
+
+```
+cd "C:\Users\Pedro\Desktop\CLAUDE\tpcmetal.es"
+python herramientas/cursos.py index.html
+```
+
+Escribe HTML estático entre las marcas `CURSOS:INICIO` y `CURSOS:FIN`. Estático
+a propósito: Google no lee el iframe del calendario, así que si los cursos solo
+estuvieran ahí no los indexaría. El iframe sigue estando, debajo.
+
+Ahora mismo saca **24 convocatorias en 7 semanas**, de lunes a domingo, con
+fechas dd/mm/aaaa, horario, periodo y el número de grupos cuando hay varios.
+
+> **Regla:** cambias la hoja, ejecutas el script, commit. Nunca edites a mano lo
+> que hay entre las dos marcas: el script lo sobrescribe.
+
+Es el mismo script que usa la otra rama del repo, sin modificar, para que valga
+para las dos versiones.
+
+---
+
+## 14. Imágenes en las rutas antiguas
+
+Además de las nuevas en `/img/`, el sitio conserva las **9 imágenes originales
+en sus rutas de siempre**, `/s/cc_images/` y `/s/img/`. No se ven en la web,
+pero mantienen vivas las URLs que Google Imágenes ya tiene indexadas. El fichero
+`.nojekyll` está para que GitHub Pages las sirva tal cual.
+
+De ahí salieron dos mejoras: la foto del trabajador ahora es la de 736x700 en
+vez de la de 266x200, y la página *Cómo llegar* recupera el **plano real de
+transporte de Móstoles** (líneas de autobús, la DGT, el polígono Los Rosales),
+más útil que cualquier esquema dibujado.
