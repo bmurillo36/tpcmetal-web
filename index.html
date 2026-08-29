@@ -327,8 +327,15 @@
       <p class="subtitulo-seccion">¿Podemos ayudarle? Póngase en contacto con nosotros.</p>
       <div class="rejilla-contacto">
         <div class="tarjeta-form">
-          <form action="https://formsubmit.co/info@prevencionmadrid.es" method="POST">
+          <!-- El aviso del formulario tiene que llegar a mbarberosala@gmail.com, que es el
+                 buzón que lee la Suite (CRM), y en formato de tabla (_template=table), que es
+                 el que su lector ya entiende para curso-tpc.es. Comprobado contra el propio
+                 lector de la Suite el 29/08/2026: nombre, email, teléfono, mensaje y web =
+                 tpcmetal.es. No cambiar los nombres de los campos sin volver a probarlo. -->
+            <form action="https://formsubmit.co/mbarberosala@gmail.com" method="POST">
             <input type="hidden" name="_subject" value="Consulta desde tpcmetal.es">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://www.tpcmetal.es/gracias/">
             <input type="hidden" name="_captcha" value="false">
             <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
             <div class="campo">
