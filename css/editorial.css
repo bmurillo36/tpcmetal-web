@@ -791,3 +791,93 @@ figure{ margin:0; }
   .dia-titulo{ flex-direction:row; align-items:baseline; gap:.6em; }
   .dia-cursos li{ gap:.4em; }
 }
+
+/* --- 23. CITA NORMATIVA LITERAL ----------------------------------------- */
+.cita-norma{
+  margin:var(--space-m) 0;
+  padding:clamp(18px,2vw,26px) clamp(20px,2.4vw,30px);
+  background:var(--paper);
+  border-left:3px solid var(--ember);
+}
+.cita-norma p{
+  font-size:var(--t-small); line-height:1.7; color:var(--ink-soft); margin-bottom:.9em;
+}
+.cita-norma p:last-child{ margin-bottom:0; }
+.section--warm .cita-norma{ background:#FBF9F6; }
+
+/* --- 24. BARRA MÓVIL: los dos teléfonos siempre ------------------------- */
+.mobilebar__a--call2{ background:var(--ink); color:var(--paper); }
+.mobilebar__a--call2:active{ filter:brightness(1.35); }
+@media (max-width:380px){
+  .mobilebar__a{ font-size:.8rem; letter-spacing:.02em; gap:.3em; }
+}
+
+/* ==========================================================================
+   25. FORMULARIO: nuestros datos separados de los del alumno, y avisos
+   ========================================================================== */
+.bloque-datos,
+.bloque-form{
+  border:1px solid rgba(255,255,255,.20);
+  border-radius:3px;
+  padding:clamp(22px,2.6vw,34px);
+  height:100%;
+}
+.bloque-form{ background:rgba(255,255,255,.045); border-color:rgba(255,255,255,.30); }
+.bloque-datos__titulo{
+  font-size:var(--t-caption); font-weight:700; letter-spacing:.2em; text-transform:uppercase;
+  color:var(--ember); margin:0 0 var(--space-m);
+  padding-bottom:12px; border-bottom:1px solid rgba(255,255,255,.20);
+}
+.bloque-form__ayuda{
+  font-size:var(--t-small); line-height:1.6; color:#C3CCD6; margin-bottom:var(--space-l);
+}
+.bloque-form__ayuda strong{ color:var(--paper); }
+
+.datalist--dark li{ border-bottom-color:rgba(255,255,255,.16); }
+.datalist--dark .k{ color:#7E93AB; }
+.datalist--dark .v,
+.datalist--dark .v a{ color:#D6DEE6; }
+.datalist--dark .v a{ border-bottom-color:var(--ember); }
+.datalist--dark .v a:hover{ color:#FFB38A; }
+
+/* Campos sobre fondo oscuro */
+.section--dark .field label{ color:#9BB0C6; }
+.section--dark .field input,
+.section--dark .field textarea,
+.section--dark .field select{ color:var(--paper); border-bottom-color:rgba(255,255,255,.32); }
+.section--dark .field input::placeholder,
+.section--dark .field textarea::placeholder{ color:#6E7F91; }
+.section--dark .field select option{ color:#0E1114; }
+.section--dark .consent{ color:#C3CCD6; }
+.section--dark .consent a{ color:var(--paper); }
+.opc{ font-weight:400; letter-spacing:.06em; text-transform:none; color:var(--steel); }
+.obligatorios{ font-size:var(--t-caption); color:var(--steel); margin:0; }
+
+/* Aviso de lo que falta */
+.form-error{
+  border:1px solid var(--ember);
+  border-left-width:4px;
+  background:rgba(200,65,13,.10);
+  padding:clamp(16px,2vw,22px);
+  border-radius:2px;
+}
+.form-error__titulo{
+  font-weight:700; font-size:1rem; color:var(--ember);
+  margin:0 0 .6em; letter-spacing:.01em;
+}
+.section--dark .form-error__titulo{ color:#FF9A63; }
+.form-error ul{ margin:0; padding-left:1.15em; }
+.form-error li{ font-size:var(--t-small); line-height:1.55; margin-bottom:.35em; }
+.section--dark .form-error li{ color:#E4D2C8; }
+.section--dark .form-error strong{ color:#fff; }
+
+.field--error input,
+.field--error textarea,
+.field--error select{ border-bottom-color:var(--ember) !important; border-bottom-width:2px; }
+.field--error label{ color:var(--ember) !important; }
+.consent.field--error span{ color:var(--ember); }
+
+@media (max-width:900px){
+  .bloque-datos{ margin-bottom:var(--space-m); }
+  .bloque-datos,.bloque-form{ padding:clamp(18px,4vw,26px); }
+}

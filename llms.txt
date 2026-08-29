@@ -11,7 +11,7 @@
 - Coordenadas: 40.341751, -3.863215
 - Teléfono móvil: +34 630 29 25 16
 - Teléfono fijo: +34 91 617 04 23
-- Correo: info@prevencionmadrid.es
+- Correo: info@tpcmetal.es
 - Horario: lunes a viernes, 8:00–18:00
 - Web principal del grupo: https://www.prevencionmadrid.es
 - Punto de tramitación de la TPC más cercano: Calle Cámara de la Industria 23, 28938 Móstoles (Madrid)
@@ -20,7 +20,6 @@
 
 - Reciclaje Metal — 4 horas — presencial
 - TPC parte específica por oficio — 6 horas — presencial (metal, albañilería, encofrados, pladur, ferralla, impermeabilizaciones, fontanería, climatización, electricidad, pintura)
-- TPC — 8 horas — presencial
 - TPC — 20 horas (parte común + parte específica) — presencial
 - TPC — 60 horas / Nivel Básico de PRL — presencial
 - TPC Directivos — 10 horas — on-line

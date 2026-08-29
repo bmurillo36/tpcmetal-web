@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tarjeta TPC Metal - Contacto | Prevención Siglo 21, Móstoles</title>
-<meta name="description" content="Contacto del centro de cursos TPC del sector del metal en Móstoles, Madrid. Teléfonos 630 29 25 16 y 91 617 04 23, correo info@prevencionmadrid.es y formulario directo sin captcha. Centro homologado por la Fundación Laboral de la Construcción, más de 100 cursos disponibles.">
+<title>Tarjeta TPC Metal - Contacto</title>
+<meta name="description" content="Contacto del centro de cursos TPC del sector del metal en Móstoles, Madrid. Teléfonos 630 29 25 16 y 91 617 04 23, correo info@tpcmetal.es y formulario directo sin captcha. Centro homologado por la Fundación Laboral de la Construcción, más de 100 cursos disponibles.">
 <meta name="keywords" content="contacto tpc metal,tpc construccion,curso metal,telefono tpc mostoles,prevencion siglo 21 contacto">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
 <meta name="geo.region" content="ES-MD">
@@ -41,7 +41,7 @@
       "name": "Centro Médico Siglo 21 Prevención de Riesgos Laborales S.L.",
       "alternateName": ["Prevención Siglo 21","TPC Metal"],
       "url": "https://www.tpcmetal.es/",
-      "email": "info@prevencionmadrid.es",
+      "email": "info@tpcmetal.es",
       "telephone": "+34630292516",
       "vatID": "B84071364",
       "address": { "@type": "PostalAddress", "streetAddress": "Calle La Fragua 1, Portal 2, Oficinas 2101-2104", "addressLocality": "Móstoles", "addressRegion": "Madrid", "postalCode": "28933", "addressCountry": "ES" },
@@ -64,7 +64,7 @@
     <span class="callbar__label">Reserve su plaza</span>
     <a href="tel:+34630292516">630 29 25 16</a>
     <a href="tel:+34916170423">91 617 04 23</a>
-    <a href="mailto:info@prevencionmadrid.es">info@prevencionmadrid.es</a>
+    <a href="mailto:info@tpcmetal.es">info@tpcmetal.es</a>
   </div>
 </div>
 
@@ -103,7 +103,8 @@
     <nav class="eyebrow eyebrow--steel" aria-label="Ruta de navegación" style="margin-bottom:2rem">
       <a href="/" style="color:inherit;text-decoration:none">Inicio</a> · <span style="color:var(--ember)">Contacto</span>
     </nav>
-    <h1 class="display" style="max-width:14ch">¿Podemos ayudarle?</h1>
+    <h1 class="display" style="max-width:10ch">Contacto</h1>
+    <h2 class="h2" style="margin-top:.6rem;color:var(--ink-soft);font-weight:500">¿Podemos ayudarle? Póngase en contacto con nosotros.</h2>
     <p class="lead" style="margin-top:1.5rem">Llámenos y le ofreceremos más de cien cursos disponibles con nuestro centro homologado por la Fundación Laboral de la Construcción. Atendemos de lunes a viernes, de 8:00 a 18:00.</p>
     <div class="btn-row">
       <a class="btn btn--ember" href="tel:+34630292516">Llamar al 630 29 25 16</a>
@@ -120,9 +121,7 @@
       <ul class="datalist">
         <li><span class="k">Móvil</span><span class="v"><a href="tel:+34630292516">630 29 25 16</a></span></li>
         <li><span class="k">Fijo</span><span class="v"><a href="tel:+34916170423">91 617 04 23</a></span></li>
-        <li><span class="k">Correo</span><span class="v"><a href="mailto:info@prevencionmadrid.es">info@prevencionmadrid.es</a></span></li>
-        <li><span class="k">Correo</span><span class="v"><a href="mailto:mbarberosala@gmail.com">mbarberosala@gmail.com</a></span></li>
-        <li><span class="k">Correo</span><span class="v"><a href="mailto:centro@femte.es">centro@femte.es</a></span></li>
+        <li><span class="k">Correo</span><span class="v"><a href="mailto:info@tpcmetal.es">info@tpcmetal.es</a></span></li>
         <li><span class="k">Dirección</span><span class="v">Calle La Fragua 1<br>Portal 2, oficinas 2101, 2102, 2103 y 2104<br>28933 Móstoles, Madrid</span></li>
         <li><span class="k">Horario</span><span class="v">Lunes a viernes, 8:00 – 18:00</span></li>
         <li><span class="k">Web</span><span class="v"><a href="https://www.prevencionmadrid.es" rel="noopener">www.prevencionmadrid.es</a></span></li>
@@ -146,34 +145,36 @@
     <div class="col-half-r" id="formulario">
       <p class="eyebrow">Formulario de contacto</p>
       <h2 class="h2" style="margin-bottom:2rem">Escríbanos y le respondemos</h2>
-      <form class="form" action="https://formsubmit.co/mbarberosala@gmail.com" method="POST">
+      <p class="bloque-form__ayuda">Solo necesitamos su <strong>nombre</strong> y un <strong>teléfono</strong>. Si prefiere que le escribamos, deje su correo en vez del teléfono.</p>
+      <form class="form" action="https://formsubmit.co/mbarberosala@gmail.com" method="POST" novalidate id="form-contacto">
         <input type="hidden" name="_subject" value="Nuevo formulario de contacto desde tpcmetal.es">
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_template" value="table">
         <input type="hidden" name="_next" value="https://www.tpcmetal.es/gracias/">
         <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true">
 
+        <div class="form-error" id="error-contacto" role="alert" hidden></div>
+
         <div class="field">
           <label for="nombre">Nombre <span class="req">*</span></label>
-          <input id="nombre" name="Nombre" type="text" required autocomplete="name">
+          <input id="nombre" name="Nombre" type="text" required autocomplete="name" placeholder="Su nombre y apellidos">
         </div>
         <div class="field-row">
           <div class="field">
-            <label for="email">Correo electrónico</label>
-            <input id="email" name="Email" type="email" autocomplete="email">
+            <label for="telefono">Teléfono <span class="req">*</span></label>
+            <input id="telefono" name="Telefono" type="tel" autocomplete="tel" inputmode="tel" placeholder="600 000 000">
           </div>
           <div class="field">
-            <label for="telefono">Teléfono <span class="req">*</span></label>
-            <input id="telefono" name="Telefono" type="tel" required autocomplete="tel" inputmode="tel">
+            <label for="email">Correo electrónico</label>
+            <input id="email" name="Email" type="email" autocomplete="email" placeholder="Si prefiere que le escribamos">
           </div>
         </div>
         <div class="field">
-          <label for="curso">Curso que le interesa</label>
+          <label for="curso">Curso que le interesa <span class="opc">(opcional)</span></label>
           <select id="curso" name="Curso">
             <option value="">Seleccione un curso</option>
             <option>Reciclaje Metal · 4 horas</option>
             <option>TPC parte específica · 6 horas</option>
-            <option>TPC · 8 horas</option>
             <option>TPC · 20 horas</option>
             <option>TPC · 60 horas / Nivel Básico</option>
             <option>TPC Directivos · 10 horas (on-line)</option>
@@ -181,23 +182,16 @@
           </select>
         </div>
         <div class="field">
-          <label for="mensaje">Mensaje <span class="req">*</span></label>
-          <textarea id="mensaje" name="Mensaje" required></textarea>
+          <label for="mensaje">Mensaje <span class="opc">(opcional)</span></label>
+          <textarea id="mensaje" name="Mensaje" placeholder="Fecha que le viene bien, dudas, lo que necesite"></textarea>
         </div>
         <label class="consent">
-          <input type="checkbox" name="Acepto" value="Sí" required>
+          <input type="checkbox" id="acepto" name="Acepto" value="Sí">
           <span>He leído y acepto la <a href="/aviso-legal/">Política de Privacidad recogida en el Aviso Legal</a> <span class="req">*</span></span>
         </label>
         <input type="hidden" name="Origen" value="Pagina de contacto tpcmetal.es">
         <div><button class="btn btn--ember" type="submit">Enviar formulario</button></div>
-
-        <div class="legal-note">
-          <p style="margin-bottom:.6em"><strong>Responsable del tratamiento:</strong> Centro Médico Siglo 21 Prevención de Riesgos Laborales S.L.</p>
-          <p style="margin-bottom:.6em"><strong>Finalidad:</strong> atender las consultas que nos pueda solicitar a través de los formularios de esta web y enviarle comunicaciones comerciales de nuestros productos y servicios.</p>
-          <p style="margin-bottom:.6em"><strong>Legitimación:</strong> consentimiento del interesado. Al marcar la casilla de aceptación presta su consentimiento para que sus datos sean tratados conforme a las finalidades descritas en la <a href="/aviso-legal/">Política de Privacidad y Protección de Datos</a>.</p>
-          <p style="margin-bottom:.6em"><strong>Destinatarios:</strong> no se realiza ningún tipo de cesión de datos, salvo obligación legal.</p>
-          <p style="margin-bottom:0"><strong>Derechos de los interesados:</strong> puede ejercer sus derechos de oposición, rectificación o cancelación tal y como se indica en nuestro <a href="/aviso-legal/">Aviso Legal</a> y Política de Privacidad y Protección de Datos, o enviando un correo a <a href="mailto:info@prevencionmadrid.es">info@prevencionmadrid.es</a>. Los espacios marcados con <span class="req">*</span> son obligatorios.</p>
-        </div>
+        <p class="obligatorios"><span class="req">*</span> Campos obligatorios.</p>
       </form>
     </div>
   </div>
@@ -225,9 +219,7 @@
       <ul>
         <li><a href="tel:+34630292516">630 29 25 16</a></li>
         <li><a href="tel:+34916170423">91 617 04 23</a></li>
-        <li><a href="mailto:info@prevencionmadrid.es">info@prevencionmadrid.es</a></li>
-        <li><a href="mailto:mbarberosala@gmail.com">mbarberosala@gmail.com</a></li>
-        <li><a href="mailto:centro@femte.es">centro@femte.es</a></li>
+        <li><a href="mailto:info@tpcmetal.es">info@tpcmetal.es</a></li>
       </ul>
     </div>
     <div class="footer__col">
@@ -259,12 +251,13 @@
   </div>
 </footer>
 <nav class="mobilebar" aria-label="Acciones rápidas">
-  <a class="mobilebar__a mobilebar__a--call" href="tel:+34630292516"><span aria-hidden="true">☎</span> Llamar ahora</a>
-  <a class="mobilebar__a" href="/#reserva">Reservar plaza</a>
+  <a class="mobilebar__a mobilebar__a--call" href="tel:+34630292516"><span aria-hidden="true">☎</span> 630 29 25 16</a>
+  <a class="mobilebar__a mobilebar__a--call2" href="tel:+34916170423"><span aria-hidden="true">☎</span> 91 617 04 23</a>
 </nav>
 <script>
 document.querySelectorAll('.mnav a').forEach(function(a){a.addEventListener('click',function(){var d=a.closest('details');if(d)d.open=false;});});
 </script>
 <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+<script src="/js/formulario.js" defer></script>
 </body>
 </html>
