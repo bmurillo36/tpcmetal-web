@@ -290,8 +290,8 @@ curl -s -o /dev/null -w "%{http_code}\n" http://tpcmetal.es/
 - **El mapa de Google** de la página *Cómo llegar*, con su clave original.
 - **Todos los enlaces salientes**: prevencionmadrid.es, Google Maps
   (`maps.app.goo.gl/nEMHDDJqMXuCooTM6`), Apple Maps, Emagister.
-- **Todos los correos**: info@prevencionmadrid.es, mbarberosala@gmail.com,
-  centro@femte.es, info@prevencion.com.
+- **Todos los correos**: info@tpcmetal.es, mbarberosala@gmail.com,
+  centro@femte.es, info@tpcmetal.es.
 - **Los textos legales íntegros** (aviso legal y política de cookies).
 - **La programación de cursos** de agosto y septiembre.
 
