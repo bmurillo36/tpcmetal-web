@@ -326,3 +326,15 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
   .cabecera,.barra-movil,.heroe-cta,.btn,.nav-movil{display:none !important}
   body{background:#fff;padding:0}
 }
+
+/* --- Conservado de la web anterior (posicionamiento): rótulo, aviso, H2 y galería --- */
+.lema-superior{font-size:.95rem;letter-spacing:.12em;text-transform:uppercase;opacity:.85;margin:0 0 .4rem}
+.aviso-presencial{font-weight:700;font-size:.9rem;letter-spacing:.03em;margin:.8rem 0 0;padding:.5rem .8rem;border:1px solid rgba(255,255,255,.35);border-radius:8px;display:inline-block}
+.subtitulo-h2{font-size:1.1rem;font-weight:600;margin:.2rem 0 .4rem;color:inherit}
+.subtitulo-h2.llame a{text-decoration:none;font-weight:800}
+.lista-cursos{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:.3rem .9rem;margin:0 0 1.2rem;padding-left:1.1rem;font-size:.95rem}
+.galeria-cursos{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.7rem;margin:0 0 1.4rem}
+.galeria-cursos figure{margin:0;border-radius:10px;overflow:hidden;background:#f3f4f6}
+.galeria-cursos img{display:block;width:100%;height:120px;object-fit:cover}
+.confianza-item.emagister{display:flex;gap:.6rem;align-items:center}
+.confianza-item.emagister img{height:44px;width:auto}
