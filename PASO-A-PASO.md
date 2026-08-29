@@ -104,128 +104,141 @@ devuelven 200 y no hay errores en consola.
 
 ---
 
-## 3. Subida a Base44 (Camino A)
+## 3. Publicar con GitHub Pages
 
-### 3.1 Crear la app
+El repositorio ya está: `github.com/bmurillo36/tpcmetal-web`, rama **`editorial`**.
 
-1. Entra en Base44 y crea una app nueva llamada **`tpcmetal.es`**.
-   (No reutilices `renovartpc.es` ni `Reciclajemetal.es`.)
+### 3.1 Decir a Pages que sirva la rama editorial
 
-### 3.2 Colocar los ficheros
+1. Entra en <https://github.com/bmurillo36/tpcmetal-web/settings/pages>
+2. En **Build and deployment - Source** elige **Deploy from a branch**.
+3. En **Branch** selecciona **`editorial`** y carpeta **`/ (root)`**. Guarda.
+4. Espera 1-2 minutos a que termine el despliegue (lo ves en la pestaña
+   *Actions* del repositorio).
 
-Base44 usa Vite. Vite publica **tal cual** todo lo que esté en la carpeta
-`public/`. Ese es el truco para servir HTML plano dentro de una app Base44.
+> Ojo: ahora mismo Pages sirve la rama `main`, que es la otra versión. Al
+> cambiar a `editorial` cambia lo que se ve en la vista previa. `main` no se
+> borra ni se toca.
 
-Deja el proyecto así:
+### 3.2 Revisarla antes de tocar nada
 
-```
-index.html                          <- la portada (raíz del proyecto, NO en public)
-public/
-  css/editorial.css
-  img/                              (los 6 ficheros)
-  favicon.svg
-  robots.txt
-  sitemap.xml
-  llms.txt
-  contacto/index.html
-  cómo-llegar/index.html
-  aviso-legal/index.html
-  política-de-cookies/index.html
-  sitemap/index.html
-  gracias/index.html
-  como-llegar/index.html            (alias sin acento)
-  politica-de-cookies/index.html    (alias sin acento)
-```
+Ábrela aquí:
 
-Además, **borra o vacía** `src/App.jsx` y `src/main.jsx` y quita del
-`index.html` cualquier `<script type="module" src="/src/main.jsx">` que Base44
-haya metido: no queremos React por medio.
+    https://bmurillo36.github.io/tpcmetal-web/
 
-La forma más rápida de hacer todo esto es pedírselo a Base44 en su propio chat,
-pegándole este encargo:
+**Esta vista previa funciona entera**: estilos, imágenes, menú, formulario y
+todos los enlaces. La he preparado con rutas relativas justamente para eso, para
+que puedas revisarla del todo antes de mover el DNS. Míralas todas: la portada,
+`contacto/`, `cómo-llegar/`, `aviso-legal/`, `política-de-cookies/` y
+`sitemap/`. Y en el móvil, que es lo que importa.
 
-> Quiero que esta app sirva HTML estático puro, sin React ni enrutado en
-> cliente. Voy a subir 7 páginas HTML independientes. Deja `index.html` en la
-> raíz como portada y coloca el resto de carpetas dentro de `public/` para que
-> se sirvan tal cual. Elimina el punto de entrada de React y no añadas ningún
-> *fallback* de SPA: cada ruta debe devolver su propio fichero.
-
-### 3.3 Subir el contenido
-
-Arrastra los ficheros desde `C:\Users\Pedro\Desktop\CLAUDE\tpcmetal.es` a las
-rutas de arriba. **Respeta las tildes de las carpetas** `cómo-llegar` y
-`política-de-cookies`: esas URLs están indexadas exactamente así.
-
-### 3.4 Publicar en la URL de pruebas de Base44
-
-Publica y anota la URL provisional (algo tipo `tpcmetal-xxxx.base44.app`).
+> Lo único que no funcionará en la vista previa es el envío del formulario: al
+> enviarlo salta a `www.tpcmetal.es/gracias/`, que todavía es la web vieja. En
+> cuanto el dominio apunte a Pages, funciona.
 
 ---
 
-## 4A. Verificación crítica antes de tocar el DNS
+## 4. El dominio en IONOS, paso a paso
 
-Con la URL provisional de Base44, ejecuta esto en la terminal:
+**No hagas esto hasta haber revisado la vista previa del punto 3.2.** En cuanto
+cambies el DNS, la web vieja deja de verse.
 
-```bash
-curl -s https://TU-URL.base44.app/contacto/ | grep -o "<title>[^<]*"
-curl -s https://TU-URL.base44.app/c%C3%B3mo-llegar/ | grep -o "<title>[^<]*"
-curl -s https://TU-URL.base44.app/aviso-legal/ | grep -o "<title>[^<]*"
-```
+### 4.1 Antes de nada: crear el buzón info@tpcmetal.es
 
-**Resultado correcto** — cada una devuelve su propio título:
+La web publica ese correo en todas las páginas. Si no existe, los correos
+rebotan.
 
-```
-<title>Tarjeta TPC Metal - Contacto | Prevención Siglo 21, Móstoles
-<title>Tarjeta TPC Metal - Ubicación | Cómo llegar al centro de Móstoles
-<title>Tarjeta TPC Metal - Aviso legal y Política de Privacidad
-```
+1. IONOS - **Correo** (o *Email*) - **Crear dirección de correo**.
+2. Crea `info@tpcmetal.es`. Si no quieres otro buzón que revisar, créalo como
+   **alias o reenvío** hacia el correo que ya leas.
 
-**Resultado malo** — las tres devuelven el título de la portada
-(`Tarjeta TPC Sector del Metal | Cursos presenciales...`). Eso significa que
-Base44 está aplicando *fallback* de SPA. **No sigas: vete al Camino B.**
+### 4.2 Desconectar IONOS MyWebsite del dominio
+
+El dominio está enganchado al editor visual de IONOS. Hay que soltarlo.
+
+1. IONOS - **Dominios y SSL** - busca `tpcmetal.es`.
+2. En la columna *Uso* / *Destino* verás que apunta a **MyWebsite**.
+3. Pulsa la rueda dentada - **Ajustar destino del dominio** (o *Cambiar uso*).
+4. Elige **desconectar** o **apuntar a una dirección IP / servidor externo**.
+   IONOS te avisará de que la página actual dejará de verse: es lo esperado.
+
+> **No borres el paquete de MyWebsite todavía.** Déjalo unos días por si hay que
+> volver atrás.
+
+### 4.3 Poner los registros DNS de GitHub
+
+1. IONOS - **Dominios y SSL** - `tpcmetal.es` - pestaña **DNS**.
+2. **Borra o edita** los registros `A`, `AAAA` y `CNAME` que apunten a IONOS
+   MyWebsite. **Deja intactos los `MX` y los `TXT`**: son el correo y las
+   verificaciones. Si los tocas, dejas de recibir correo.
+3. Crea estos registros.
+
+**Para `www`, que es la versión canónica:**
+
+| Tipo | Nombre | Valor | TTL |
+|---|---|---|---|
+| CNAME | `www` | `bmurillo36.github.io` | 1 hora |
+
+**Para el dominio sin www (`tpcmetal.es`), cuatro registros A:**
+
+| Tipo | Nombre | Valor |
+|---|---|---|
+| A | `@` | `185.199.108.153` |
+| A | `@` | `185.199.109.153` |
+| A | `@` | `185.199.110.153` |
+| A | `@` | `185.199.111.153` |
+
+**Y, si IONOS te deja, los cuatro AAAA de IPv6. Son opcionales:**
+
+| Tipo | Nombre | Valor |
+|---|---|---|
+| AAAA | `@` | `2606:50c0:8000::153` |
+| AAAA | `@` | `2606:50c0:8001::153` |
+| AAAA | `@` | `2606:50c0:8002::153` |
+| AAAA | `@` | `2606:50c0:8003::153` |
+
+### 4.4 Decirle a GitHub cuál es el dominio
+
+1. Vuelve a <https://github.com/bmurillo36/tpcmetal-web/settings/pages>
+2. En **Custom domain** escribe exactamente `www.tpcmetal.es` y pulsa **Save**.
+3. GitHub creará solo un fichero `CNAME` en la rama `editorial`. No lo borres ni
+   lo edites.
+4. GitHub comprobará el DNS. Puede tardar de 10 minutos a unas horas. Cuando
+   aparezca **DNS check successful**, marca la casilla **Enforce HTTPS**.
+
+> Si *Enforce HTTPS* está en gris, el certificado aún se está emitiendo. Espera
+> y vuelve a entrar; suele tardar menos de una hora.
+
+### 4.5 Lo que GitHub hace solo
+
+No tienes que configurar nada más para esto:
+
+- `http://` pasa a `https://`, una vez marcado *Enforce HTTPS*.
+- `tpcmetal.es` redirige a `www.tpcmetal.es`, porque el dominio personalizado es
+  el de `www`.
+- La página de error usa `404.html`, que ya está hecha.
+
+> Los ficheros `.htaccess`, `_redirects` y `vercel.json` del repo **Pages los
+> ignora**. No estorban y sirven si algún día mueves la web a otro alojamiento.
+> Las redirecciones de las direcciones sin tilde (`/como-llegar/` y
+> `/politica-de-cookies/`) no dependen de ellos: son páginas HTML con `noindex`
+> y redirección propia, y en Pages funcionan.
 
 ---
 
-## 4B. Camino B — hosting estático (a prueba de fallos)
+## 5. Actualizar la web a partir de ahora
 
-Si la verificación falla, o simplemente prefieres ir sobre seguro:
+Cambias los ficheros en la carpeta del proyecto y:
 
-### Opción B1 — Netlify (gratis, 5 minutos)
+    git add -A
+    git commit -m "lo que has cambiado"
+    git push
 
-1. Entra en <https://app.netlify.com/drop>.
-2. Arrastra la carpeta `tpcmetal.es` entera. Ya incluye el fichero `_redirects`
-   con los alias sin tilde.
-3. En *Domain settings* añade `www.tpcmetal.es`.
-4. Netlify te da los registros DNS. Ve al paso 5.
+GitHub Pages vuelve a publicar solo en un par de minutos.
 
-### Opción B2 — Cloudflare Pages
+Si lo que cambia son los cursos, antes del commit:
 
-Igual que Netlify (también lee `_redirects`), con CDN en España.
-
-### Opción B3 — IONOS
-
-El dominio ya está en IONOS, pero hoy usa **IONOS MyWebsite** (el editor visual),
-que **no admite subir HTML propio**. Para este camino necesitas un plan de
-**alojamiento web con FTP**. Si lo tienes o lo contratas:
-
-1. Conéctate por FTP al webspace.
-2. Sube toda la carpeta a la raíz (`/`), incluido el `.htaccess`
-   (que fuerza HTTPS y www, y hace las redirecciones 301).
-3. Listo: el dominio ya apunta ahí, no hay que tocar DNS.
-
----
-
-## 5. Apuntar el dominio (solo Camino A o B1/B2)
-
-En el panel de dominios de IONOS, para `tpcmetal.es`:
-
-1. Elimina o desactiva la conexión con IONOS MyWebsite.
-2. Crea el registro que te haya indicado Base44 / Netlify / Cloudflare:
-   - normalmente un `CNAME` para `www` apuntando a su host,
-   - y un `A` o redirección para el dominio raíz `tpcmetal.es` → `www.tpcmetal.es`.
-3. Espera la propagación (de 10 minutos a 24 horas).
-
-> **Ojo:** la versión canónica es **con `www`**, igual que ahora. No la cambies.
+    python herramientas/cursos.py index.html
 
 ---
 
