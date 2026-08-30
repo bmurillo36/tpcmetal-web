@@ -246,7 +246,7 @@ gtag('consent','default',{'analytics_storage':'denied','functionality_storage':'
       <a href="#cursos">Cursos</a>
       <a href="#calendario">Calendario</a>
       <a href="#preguntas">Preguntas</a>
-      <a href="contacto/">Contacto</a>
+      <a href="#reserva">Contacto</a>
       <a href="cómo-llegar/">Cómo llegar</a>
       <a class="btn btn--ember btn--laser" style="padding:11px 22px;font-size:.79rem" href="#reserva">Reservar plaza</a>
     </nav>
@@ -257,7 +257,7 @@ gtag('consent','default',{'analytics_storage':'denied','functionality_storage':'
           <li><a href="#cursos">Cursos</a></li>
           <li><a href="#calendario">Calendario</a></li>
           <li><a href="#preguntas">Preguntas frecuentes</a></li>
-          <li><a href="contacto/">Contacto</a></li>
+          <li><a href="#reserva">Contacto</a></li>
           <li><a href="c%C3%B3mo-llegar/">Cómo llegar</a></li>
           <li><a href="aviso-legal/">Aviso legal</a></li>
           <li><a href="pol%C3%ADtica-de-cookies/">Política de Cookies</a></li>
@@ -619,29 +619,13 @@ gtag('consent','default',{'analytics_storage':'denied','functionality_storage':'
   <div class="grid">
     <div class="col-full">
       <p class="eyebrow">Reserve su plaza</p>
-      <h2 class="display" style="max-width:16ch;margin-bottom:3rem">Escríbanos y le llamamos</h2>
+      <h2 class="display" style="max-width:16ch;margin-bottom:3rem">Escríbanos y le responderemos</h2>
     </div>
 
-    <!-- COLUMNA 1: nuestros datos -->
-    <div class="col-half-l">
-      <div class="bloque-datos">
-        <p class="bloque-datos__titulo">Nuestros datos</p>
-        <ul class="datalist datalist--dark">
-          <li><span class="k">Móvil</span><span class="v"><a href="tel:+34630292516">630 29 25 16</a></span></li>
-          <li><span class="k">Fijo</span><span class="v"><a href="tel:+34916170423">91 617 04 23</a></span></li>
-          <li><span class="k">Email</span><span class="v"><a href="mailto:info@tpcmetal.es">info@tpcmetal.es</a></span></li>
-          <li><span class="k">Centro</span><span class="v">C/ La Fragua 1, portal 2, of. 2101-2104<br>28933 Móstoles, Madrid</span></li>
-          <li><span class="k">Horario</span><span class="v">Lunes a viernes, 8:00 – 18:00</span></li>
-        </ul>
-        <div class="btn-row">
-          <a class="btn btn--on-dark" href="tel:+34630292516">630 29 25 16</a>
-          <a class="btn btn--on-dark" href="tel:+34916170423">91 617 04 23</a>
-        </div>
-      </div>
-    </div>
+</div>
 
-    <!-- COLUMNA 2: los datos que rellena el alumno -->
-    <div class="col-half-r">
+    <!-- Los datos que rellena el alumno; a lo ancho, ya sin la columna de contacto al lado -->
+    <div class="col-full" style="max-width:780px;margin-inline:auto;width:100%">
       <div class="bloque-form">
         <p class="bloque-datos__titulo">Sus datos</p>
         <p class="bloque-form__ayuda">Solo necesitamos su <strong>nombre</strong> y un <strong>teléfono</strong>. Si prefiere que le escribamos, deje su correo en vez del teléfono.</p>
@@ -751,6 +735,29 @@ gtag('consent','default',{'analytics_storage':'denied','functionality_storage':'
         </div>
       </div>
     </aside>
+  </div>
+</section>
+
+<!-- ===================== NUESTROS DATOS (al final del todo) ===================== -->
+<section class="section section--dark" id="datos">
+  <div class="grid">
+    <div class="col-full" style="max-width:780px;margin-inline:auto;width:100%">
+      <p class="eyebrow">Dónde estamos</p>
+
+  <div class="bloque-datos">
+          <p class="bloque-datos__titulo">Nuestros datos</p>
+          <ul class="datalist datalist--dark">
+            <li><span class="k">Móvil</span><span class="v"><a href="tel:+34630292516">630 29 25 16</a></span></li>
+            <li><span class="k">Fijo</span><span class="v"><a href="tel:+34916170423">91 617 04 23</a></span></li>
+            <li><span class="k">Email</span><span class="v"><a href="mailto:info@tpcmetal.es">info@tpcmetal.es</a></span></li>
+            <li><span class="k">Centro</span><span class="v">C/ La Fragua 1, portal 2, of. 2101-2104<br>28933 Móstoles, Madrid</span></li>
+            <li><span class="k">Horario</span><span class="v">Lunes a viernes, 8:00 – 18:00</span></li>
+          </ul>
+          <div class="btn-row">
+            <a class="btn btn--on-dark" href="tel:+34630292516">630 29 25 16</a>
+            <a class="btn btn--on-dark" href="tel:+34916170423">91 617 04 23</a>
+          </div>
+    </div>
   </div>
 </section>
 
