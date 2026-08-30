@@ -113,7 +113,7 @@ gtag('consent','default',{'analytics_storage':'denied','functionality_storage':'
     </nav>
     <h1 class="display" style="max-width:12ch">Cómo llegar</h1>
     <h2 class="h2" style="margin-top:.6rem;color:var(--ink-soft);font-weight:500">A cinco minutos de la salida 18 de la A-5</h2>
-    <p class="lead" style="margin-top:1.5rem">El centro está en el polígono de Móstoles, en la Calle La Fragua 1, portal 2. Se llega bien en metro, en coche y en autobús, y el punto de tramitación de la tarjeta queda a pocos minutos.</p>
+    <p class="lead" style="margin-top:1.5rem">El centro está en el polígono de Móstoles, en la Calle La Fragua 1, portal 2. Se llega bien en metro, en coche y en autobús,.</p>
     <div class="btn-row">
       <a class="btn btn--ember" href="https://maps.app.goo.gl/nEMHDDJqMXuCooTM6" rel="noopener" target="_blank">Abrir en Google Maps</a>
       <a class="btn btn--ghost" href="https://maps.apple.com/?daddr=Calle+La+Fragua+1%2C+Mostoles%2C+28933%2C+Madrid" rel="noopener" target="_blank">Abrir en Apple Maps</a>
@@ -156,11 +156,7 @@ gtag('consent','default',{'analytics_storage':'denied','functionality_storage':'
       </figure>
       <p class="caption"><strong>Plano de la zona.</strong> Líneas de autobús, salida de la A-5 frente a la DGT y polígono industrial Los Rosales.</p>
 
-      <figure class="plate plate--wide" style="margin-top:2rem">
-        <img src="../img/tarjeta-tpc-metal-tramitacion-flc-mostoles.svg" alt="Plano esquemático entre el centro de formación TPC de Móstoles y el punto de tramitación de la Tarjeta Profesional de la Construcción" width="1200" height="675" loading="lazy">
-      </figure>
-      <p class="caption"><strong>Del aula a la ventanilla.</strong> El punto de tramitación más cercano está en C/ Cámara de la Industria 23.</p>
-    </div>
+</div>
   </div>
 </section>
 
@@ -168,7 +164,13 @@ gtag('consent','default',{'analytics_storage':'denied','functionality_storage':'
   <div class="grid">
     <div class="col-text">
       <p class="eyebrow">Antes de venir</p>
-      <p class="lead">Confirme siempre su plaza por teléfono: <a href="tel:+34630292516" style="color:inherit">630 29 25 16</a> o <a href="tel:+34916170423" style="color:inherit">91 617 04 23</a>. Los cursos son presenciales y los grupos, reducidos.</p>
+      <p class="lead">Confirme siempre su plaza por teléfono. Los cursos son presenciales y los grupos, reducidos.</p>
+      <!-- Los telefonos, en su propia linea y con nowrap: antes se partia el 91 617 04 23 por la mitad -->
+      <p class="lead" style="margin-top:.4em">
+        <a href="tel:+34630292516" style="color:inherit;white-space:nowrap">630 29 25 16</a>
+        <span aria-hidden="true" style="opacity:.45;margin:0 .5em">·</span>
+        <a href="tel:+34916170423" style="color:inherit;white-space:nowrap">91 617 04 23</a>
+      </p>
     </div>
   </div>
 </section>
@@ -208,6 +210,7 @@ gtag('consent','default',{'analytics_storage':'denied','functionality_storage':'
         <li><a href="../aviso-legal/">Aviso legal</a></li>
         <li><a href="../política-de-cookies/">Política de Cookies</a></li>
         <li><a href="../sitemap/">Mapa del sitio</a></li>
+        <li><a href="#" data-ck="configurar" onclick="return false">Cookies</a></li>
         <li><a href="https://www.prevencionmadrid.es" rel="noopener">prevencionmadrid.es</a></li>
       </ul>
     </div>

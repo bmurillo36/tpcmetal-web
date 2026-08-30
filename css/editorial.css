@@ -1018,24 +1018,15 @@ figure{ margin:0; }
 .ck-interruptor input:disabled + span{ opacity:.5; cursor:not-allowed; }
 .ck-interruptor input:focus-visible + span{ outline:2px solid var(--ink); outline-offset:2px; }
 
-/* Botón permanente para volver a decidir */
-.ck-reabrir{
-  position:fixed; left:16px; bottom:16px; z-index:9997; display:none;
-  background:var(--ink); color:var(--paper); border:0; border-radius:2px;
-  font-family:var(--font-text); font-size:.7rem; font-weight:640;
-  letter-spacing:.08em; text-transform:uppercase;
-  padding:9px 14px; cursor:pointer; opacity:.55;
-  transition:opacity .2s ease,background .2s ease;
-}
-.ck-reabrir.visible{ display:block; }
-.ck-reabrir:hover,.ck-reabrir:focus-visible{ opacity:1; background:var(--ember); }
+/* El boton flotante «Cookies» se quito a peticion de Pedro.
+   Para poder cambiar de opinion queda el enlace «Cookies» del pie. */
 
 /* Pantallas estrechas o bajas: los BOTONES SIEMPRE A LA VISTA.
    Antes el cuadro entero se desplazaba, y con el texto largo los botones
    quedaban fuera de la pantalla: parecia que no hubiera botones. Ahora el
    cuadro se reparte en dos, y lo unico que se desplaza es el texto. */
 @media (max-width:900px), (max-height:560px){
-  .ck-banner{ padding:16px; max-height:82vh; display:flex; overflow:hidden; }
+  .ck-banner{ padding:16px; max-height:82vh; overflow:hidden; }   /* sin display: lo pone .visible */
   .ck-banner__inner{
     display:flex; flex-direction:column; gap:14px;
     max-height:100%; width:100%; min-height:0;
@@ -1056,6 +1047,5 @@ figure{ margin:0; }
   .ck-banner__texto p{ font-size:.82rem; line-height:1.5; }
   .ck-panel{ max-height:84vh; }
   .ck-panel__pie .ck-btn{ flex:1 1 100%; }
-  .ck-reabrir{ left:10px; bottom:10px; }
 }
 @media (prefers-reduced-motion:reduce){ .ck-banner.visible{ animation:none; } }

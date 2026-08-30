@@ -48,7 +48,6 @@
     aplicar(dato);
     ocultarBanner();
     cerrarPanel();
-    mostrarBoton();
   }
 
   /* --- Lo que se activa según lo aceptado -------------------------------- */
@@ -81,7 +80,7 @@
 
   /* --- Construcción del banner ------------------------------------------ */
 
-  var banner, panel, boton;
+  var banner, panel;
 
   function construir() {
     var pol = rutaPolitica();
@@ -129,16 +128,8 @@
         '</div>' +
       '</div>';
 
-    boton = document.createElement("button");
-    boton.type = "button";
-    boton.className = "ck-reabrir";
-    boton.setAttribute("aria-label", "Configuración de cookies");
-    boton.textContent = "Cookies";
-    boton.setAttribute("data-ck", "configurar");
-
     document.body.appendChild(banner);
     document.body.appendChild(panel);
-    document.body.appendChild(boton);
 
     document.addEventListener("click", alPulsar);
     document.addEventListener("keydown", function (e) {
@@ -185,14 +176,13 @@
   function cerrarPanel()  { if (panel)  panel.classList.remove("visible"); }
   function mostrarBanner(){ if (banner) banner.classList.add("visible"); }
   function ocultarBanner(){ if (banner) banner.classList.remove("visible"); }
-  function mostrarBoton() { if (boton)  boton.classList.add("visible"); }
 
   /* --- Arranque ---------------------------------------------------------- */
 
   function init() {
     construir();
     var c = leer();
-    if (c) { aplicar(c); mostrarBoton(); }
+    if (c) { aplicar(c); }
     else   { mostrarBanner(); }
   }
 
