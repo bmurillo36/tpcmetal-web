@@ -70,11 +70,13 @@ body{
   line-height:1.75;
   font-feature-settings:"kern" 1,"liga" 1;
   -webkit-font-smoothing:antialiased;
-  /* "clip" y no "hidden": con hidden el <body> se convierte en contenedor de
-     scroll, y entonces Chrome no desplaza a los anclas (#reserva, #cursos...).
-     clip recorta igual el desbordamiento lateral sin crear ese contenedor. */
-  overflow-x:clip;
 }
+
+/* El recorte lateral va en el <html>, no en el <body>. En el body rompia dos
+   cosas: con "hidden" los enlaces del menu dejaban de desplazar la pagina,
+   y con "clip" el cuadro de cookies dejaba de pegarse al borde de abajo
+   (position:fixed pasaba a medirse contra el body recortado). */
+html{ overflow-x:hidden; }
 img,svg,iframe{ max-width:100%; }
 img{ height:auto; display:block; }
 a{ color:inherit; }
@@ -937,6 +939,8 @@ figure{ margin:0; }
   display:none;
 }
 .ck-banner.visible{ display:block; animation:ck-subir .32s ease; }
+/* En estrecho manda el reparto en dos (texto que se desplaza + botones fijos) */
+@media (max-width:900px), (max-height:560px){ .ck-banner.visible{ display:flex; } }
 @keyframes ck-subir{ from{ transform:translateY(100%); } to{ transform:translateY(0); } }
 .ck-banner__inner{
   max-width:1180px; margin:0 auto;
