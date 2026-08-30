@@ -14,6 +14,13 @@ indicados. Uso:  python3 herramientas/cursos.py [index.html ...]
 """
 import csv, io, re, sys, html, os, urllib.request
 from datetime import date, datetime, timedelta
+
+# La consola de Windows va en cp1252 y revienta con los acentos y el "OK".
+# Sin esto el script hace su trabajo pero termina con un error feo.
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+except AttributeError:
+    pass
 from collections import OrderedDict
 
 HOJA = "https://docs.google.com/spreadsheets/d/14mcRaWiZxxqZe0Q_Jucohp-oGbQGyQhxz2SwLI1Zc9c/export?format=csv&gid=0"
