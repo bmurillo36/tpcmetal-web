@@ -1087,3 +1087,10 @@ figure{ margin:0; }
   .duraciones__h{ flex:0 0 42px; }
   .duraciones__sello{ margin-left:0; margin-top:4px; }
 }
+
+
+/* --- 19. ESPECIALIDADES DEL METAL ---------------------------------------- */
+.cards--especialidades{ list-style:none; margin:0; padding:0; }
+.cards--especialidades{ display:grid; gap:var(--col-gap); grid-template-columns:repeat(3,minmax(0,1fr)); }
+@media (max-width:900px){ .cards--especialidades{ grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media (max-width:600px){ .cards--especialidades{ grid-template-columns:1fr; } }
