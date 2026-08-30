@@ -54,6 +54,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/editorial.css">
 
+<!-- Consentimiento por defecto: denegado hasta que el visitante decida (Consent Mode v2) -->
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('consent','default',{'analytics_storage':'denied','functionality_storage':'denied','ad_storage':'denied','ad_user_data':'denied','ad_personalization':'denied','security_storage':'granted','wait_for_update':500});
+</script>
 <!-- Google Tag Manager (contenedor original conservado) -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5NTZ43SH');</script>
 <!-- End Google Tag Manager -->
@@ -196,14 +201,12 @@
           "acceptedAnswer": { "@type": "Answer", "text": "No. Los cursos para la Tarjeta Profesional de la Construcción solo son válidos si se realizan de forma presencial. La única excepción es el curso TPC de Directivos de 10 horas, que sí puede cursarse on-line." } },
         { "@type": "Question", "name": "¿Cuántas horas dura el curso del metal para la TPC?",
           "acceptedAnswer": { "@type": "Answer", "text": "Depende del itinerario: el reciclaje del metal es de 4 horas; la parte específica por oficio, de 6 horas; existen también cursos de 20 horas (parte común más parte específica) y de 60 horas correspondientes al Nivel Básico de prevención de riesgos laborales." } },
-        { "@type": "Question", "name": "¿Dónde se solicita la Tarjeta Profesional de la Construcción?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Una vez realizado el curso, la tarjeta se tramita en un punto habilitado: centros de la Fundación Laboral de la Construcción (FLC), asociaciones empresariales CNC de la Confederación Nacional de la Construcción, o las federaciones sindicales FECOMA-CC.OO. y MCA-UGT. El punto de tramitación más cercano al centro de Móstoles está en la Calle Cámara de la Industria 23, 28938 Móstoles, Madrid." } },
-        { "@type": "Question", "name": "¿Dónde se imparten los cursos TPC del metal en Madrid?",
+{ "@type": "Question", "name": "¿Dónde se imparten los cursos TPC del metal en Madrid?",
           "acceptedAnswer": { "@type": "Answer", "text": "En el centro de Prevención Siglo 21, Calle La Fragua 1, portal 2, oficinas 2101 a 2104, 28933 Móstoles (Madrid). Se llega en metro por la parada Universidad Rey Juan Carlos, en coche por la A-5 salida 18 (frente a la DGT) y en autobús por las líneas 522, 523, 529, 529H, 531, 531A y N503." } },
         { "@type": "Question", "name": "¿Cada cuánto hay cursos disponibles?",
           "acceptedAnswer": { "@type": "Answer", "text": "Hay convocatorias todos los días de la semana, de lunes a viernes. El calendario actualizado de cursos puede consultarse en la propia web y las plazas se reservan por teléfono en el 630 29 25 16 o el 91 617 04 23." } },
         { "@type": "Question", "name": "¿El centro está homologado?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Sí. Centro Médico Siglo 21 Prevención de Riesgos Laborales S.L. es un centro homologado por la Fundación Laboral de la Construcción, con más de veinte años de actividad formativa y más de cien cursos disponibles." } }
+          "acceptedAnswer": { "@type": "Answer", "text": "Sí. El Centro Médico Siglo XXI cuenta con el número de registro 0505101086 homologado por la Fundación Laboral de la Construcción y el número CM 87/2006 como entidad especializada en la Comunidad de Madrid." } }
       ]
     },
     {
@@ -245,7 +248,7 @@
       <a href="#preguntas">Preguntas</a>
       <a href="contacto/">Contacto</a>
       <a href="cómo-llegar/">Cómo llegar</a>
-      <a class="btn btn--ember" style="padding:10px 20px;font-size:.76rem" href="#reserva">Reservar plaza</a>
+      <a class="btn btn--ember btn--laser" style="padding:11px 22px;font-size:.79rem" href="#reserva">Reservar plaza</a>
     </nav>
       <details class="mnav">
         <summary aria-label="Abrir y cerrar el menú"><span class="mnav__bars" aria-hidden="true"></span><span class="mnav__word">Menú</span></summary>
@@ -276,7 +279,7 @@
       <h1 class="cover-title">Tarjeta Profesional de la Construcción <br><em>para el sector del metal</em></h1>
       <p class="cover__standfirst">Formamos en Móstoles a quienes sueldan, montan y mantienen la estructura de Madrid. Cursos presenciales todos los días de la semana, en un centro homologado por la Fundación Laboral de la Construcción.</p>
       <div class="btn-row">
-        <a class="btn btn--ember" href="#reserva">Reservar plaza</a>
+        <a class="btn btn--ember btn--laser btn--grande" href="#reserva">Reservar plaza</a>
         <a class="btn btn--on-dark" href="tel:+34630292516">630 29 25 16</a>
         <a class="btn btn--on-dark" href="tel:+34916170423">91 617 04 23</a>
       </div>
@@ -365,14 +368,6 @@
     </div>
   </div>
 </section>
-
-<!-- ===================== PLACA A SANGRE ===================== -->
-<figure class="plate plate--bleed plate--pano">
-  <img src="img/curso-tpc-metal-especialidades-aula-taller.svg" alt="Taller de formación presencial con banco de trabajo, casco de protección y panel didáctico para los cursos TPC del sector del metal" width="1200" height="800" loading="lazy">
-</figure>
-<div class="wrap" style="padding-top:16px">
-  <p class="caption"><strong>Aula-taller del centro de Móstoles.</strong> Toda la formación de la TPC se imparte de forma presencial, en grupos reducidos y con convocatorias diarias.</p>
-</div>
 
 <!-- ===================== CITA — PRESENCIALIDAD ===================== -->
 <section class="section section--dark">
@@ -723,11 +718,7 @@
           <h3 class="faq__q">¿Cuántas horas dura el curso del metal para la TPC?</h3>
           <p class="faq__a">Depende del itinerario: el reciclaje del metal es de 4 horas; la parte específica por oficio, de 6 horas; hay además cursos de 20 horas (parte común más parte específica) y de 60 horas correspondientes al Nivel Básico de prevención de riesgos laborales.</p>
         </div>
-        <div class="faq__item">
-          <h3 class="faq__q">¿Dónde se solicita la Tarjeta Profesional de la Construcción?</h3>
-          <p class="faq__a">Tras el curso, la tarjeta se tramita en un punto habilitado: centros de la Fundación Laboral de la Construcción, asociaciones empresariales CNC, o las federaciones sindicales FECOMA-CC. OO. y MCA-UGT. El punto más cercano a nuestro centro está en la Calle Cámara de la Industria 23, 28938 Móstoles, Madrid.</p>
-        </div>
-        <div class="faq__item">
+<div class="faq__item">
           <h3 class="faq__q">¿Dónde se imparten los cursos TPC del metal en Madrid?</h3>
           <p class="faq__a">En el centro de Prevención Siglo 21, Calle La Fragua 1, portal 2, oficinas 2101 a 2104, 28933 Móstoles (Madrid). Se llega en metro por la parada Universidad Rey Juan Carlos, en coche por la A-5 salida 18 (frente a la DGT) y en autobús por las líneas 522, 523, 529, 529H, 531, 531A y N503.</p>
         </div>
@@ -737,7 +728,7 @@
         </div>
         <div class="faq__item">
           <h3 class="faq__q">¿El centro está homologado?</h3>
-          <p class="faq__a">Sí. Centro Médico Siglo 21 Prevención de Riesgos Laborales S.L. es un centro homologado por la Fundación Laboral de la Construcción, con más de veinte años de actividad y más de cien cursos disponibles.</p>
+          <p class="faq__a">Sí. El Centro Médico Siglo XXI cuenta con el número de registro <strong>0505101086</strong> homologado por la Fundación Laboral de la Construcción y el número <strong>CM 87/2006</strong> como entidad especializada en la Comunidad de Madrid.</p>
         </div>
       </div>
     </div>
@@ -817,5 +808,6 @@ document.querySelectorAll('.mnav a').forEach(function(a){a.addEventListener('cli
 </script>
 <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
 <script src="js/formulario.js" defer></script>
+<script src="js/cookies.js" defer></script>
 </body>
 </html>

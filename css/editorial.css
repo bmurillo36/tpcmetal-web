@@ -354,6 +354,47 @@ h2.display,h2.h2{ margin-bottom:var(--space-m); }
 .btn--on-dark:hover,.btn--on-dark:focus-visible{ background:var(--paper); color:var(--ink); border-color:var(--paper); }
 .btn-row{ display:flex; flex-wrap:wrap; gap:14px; margin-top:var(--space-m); }
 
+/* --- Boton destacado: mas grande y con barrido de laser -------------------- */
+.btn--grande{
+  font-size:1.02rem; padding:20px 44px; letter-spacing:.1em;
+  border-radius:3px;
+  box-shadow:0 6px 22px rgba(200,65,13,.34);
+}
+.btn--laser{
+  position:relative; overflow:hidden; isolation:isolate;
+  animation:latido-ember 2.6s ease-in-out infinite;
+}
+/* El barrido: una franja de luz que cruza el boton */
+.btn--laser::after{
+  content:""; position:absolute; z-index:-1; top:-60%; bottom:-60%; width:38%;
+  left:-50%;
+  background:linear-gradient(100deg,transparent 0%,rgba(255,255,255,.10) 28%,
+    rgba(255,255,255,.72) 50%,rgba(255,255,255,.10) 72%,transparent 100%);
+  transform:skewX(-18deg);
+  animation:laser-barrido 3.1s cubic-bezier(.5,0,.5,1) infinite;
+}
+.btn--laser:hover{ animation:none; transform:translateY(-1px); }
+.btn--laser:hover::after{ animation-duration:1.1s; }
+
+@keyframes laser-barrido{
+  0%   { left:-50%; }
+  55%  { left:118%; }
+  100% { left:118%; }
+}
+@keyframes latido-ember{
+  0%,100%{ box-shadow:0 6px 22px rgba(200,65,13,.34); }
+  50%    { box-shadow:0 6px 30px rgba(200,65,13,.62); }
+}
+/* Quien pida menos movimiento, no ve ni barrido ni latido */
+@media (prefers-reduced-motion:reduce){
+  .btn--laser,.btn--laser::after{ animation:none; }
+  .btn--laser::after{ display:none; }
+}
+@media (max-width:640px){
+  .btn--grande{ font-size:.94rem; padding:17px 32px; }
+}
+
+
 /* --- 8. PLACAS DE IMAGEN (full-bleed y recortes editoriales) -------------- */
 figure{ margin:0; }
 .plate{ position:relative; overflow:hidden; background:var(--paper-cold); }
@@ -491,7 +532,7 @@ figure{ margin:0; }
 /* --- 15. SELLOS EMAGISTER ------------------------------------------------ */
 .badges{ display:flex; flex-wrap:wrap; gap:var(--space-m); align-items:center; }
 .badges a{ display:block; text-decoration:none; }
-.badges img{ display:block; max-height:96px; width:auto; }
+.badges img{ display:block; max-height:163px; width:auto; }
 
 /* --- 16. TEXTO LEGAL ----------------------------------------------------- */
 .legal-body{ max-width:78ch; }
@@ -684,7 +725,7 @@ figure{ margin:0; }
   .datalist li{ grid-template-columns:1fr; gap:3px; padding-block:13px; }
 
   .badges{ gap:20px; justify-content:flex-start; }
-  .badges img{ max-height:78px; }
+  .badges img{ max-height:133px; }
 
   .calendar-frame{ padding:0; border:0; }
   .calendar-frame iframe{ height:460px; }
@@ -881,3 +922,113 @@ figure{ margin:0; }
   .bloque-datos{ margin-bottom:var(--space-m); }
   .bloque-datos,.bloque-form{ padding:clamp(18px,4vw,26px); }
 }
+
+
+/* --- 17. BANNER DE COOKIES ----------------------------------------------- */
+.ck-banner{
+  position:fixed; left:0; right:0; bottom:0; z-index:9998;
+  background:var(--paper); color:var(--ink);
+  border-top:3px solid var(--ember);
+  box-shadow:0 -6px 34px rgba(14,17,20,.22);
+  padding:20px clamp(16px,4vw,40px);
+  display:none;
+}
+.ck-banner.visible{ display:block; animation:ck-subir .32s ease; }
+@keyframes ck-subir{ from{ transform:translateY(100%); } to{ transform:translateY(0); } }
+.ck-banner__inner{
+  max-width:1180px; margin:0 auto;
+  display:flex; flex-wrap:wrap; gap:20px 32px; align-items:center;
+  justify-content:space-between;
+}
+.ck-banner__texto{ flex:1 1 420px; }
+.ck-banner__texto p{ margin:0; font-size:.87rem; line-height:1.55; color:var(--ink-soft); }
+.ck-titulo{
+  font-family:var(--font-text); font-weight:700; letter-spacing:.06em; text-transform:uppercase;
+  font-size:.74rem !important; color:var(--ink) !important; margin-bottom:6px !important;
+}
+.ck-banner__texto a{ color:var(--ember); text-underline-offset:3px; }
+.ck-banner__acciones{ display:flex; flex-wrap:wrap; gap:10px; align-items:center; }
+
+/* Rechazar y Aceptar, exactamente igual de visibles: lo exige la AEPD */
+.ck-btn{
+  font-family:var(--font-text); font-size:.79rem; font-weight:640;
+  letter-spacing:.07em; text-transform:uppercase;
+  padding:13px 26px; border:1px solid var(--ink); border-radius:2px;
+  background:var(--ink); color:var(--paper); cursor:pointer;
+  transition:background .18s ease,color .18s ease;
+}
+.ck-btn:hover,.ck-btn:focus-visible{ background:var(--ember); border-color:var(--ember); color:#fff; }
+.ck-btn--fuerte{ background:var(--ember); border-color:var(--ember); color:#fff; }
+.ck-btn--fuerte:hover{ background:var(--ember-deep); border-color:var(--ember-deep); }
+.ck-enlace{
+  background:none; border:0; cursor:pointer; color:var(--ink-soft);
+  font-family:var(--font-text); font-size:.79rem; text-decoration:underline;
+  text-underline-offset:3px; padding:13px 6px;
+}
+.ck-enlace:hover{ color:var(--ember); }
+
+/* Segunda capa */
+.ck-overlay{
+  position:fixed; inset:0; z-index:9999; display:none;
+  background:rgba(14,17,20,.6); padding:20px;
+  align-items:center; justify-content:center;
+}
+.ck-overlay.visible{ display:flex; }
+.ck-panel{
+  background:var(--paper); width:min(620px,100%); max-height:88vh; overflow:auto;
+  border-radius:3px; box-shadow:0 24px 70px rgba(14,17,20,.4);
+}
+.ck-panel__cab{ padding:26px 28px 18px; border-bottom:1px solid var(--paper-cold); }
+.ck-panel__cab h2{
+  font-family:var(--font-display); font-size:1.35rem; font-weight:600; margin:0 0 6px;
+}
+.ck-panel__cab p{ margin:0; font-size:.85rem; color:var(--ink-soft); }
+.ck-panel__cuerpo{ padding:6px 28px; }
+.ck-grupo{
+  display:flex; gap:20px; align-items:flex-start; justify-content:space-between;
+  padding:18px 0; border-bottom:1px solid var(--paper-cold);
+}
+.ck-grupo h3{ font-family:var(--font-text); font-size:.95rem; font-weight:660; margin:0 0 4px; }
+.ck-grupo p{ margin:0; font-size:.82rem; color:var(--ink-soft); line-height:1.5; }
+.ck-panel__pie{
+  display:flex; flex-wrap:wrap; gap:10px; justify-content:flex-end;
+  padding:20px 28px 26px;
+}
+
+/* Interruptor */
+.ck-interruptor{ position:relative; flex:0 0 auto; width:48px; height:27px; cursor:pointer; }
+.ck-interruptor input{ position:absolute; opacity:0; width:100%; height:100%; margin:0; cursor:pointer; }
+.ck-interruptor span{
+  position:absolute; inset:0; background:var(--steel); border-radius:27px;
+  transition:background .2s ease;
+}
+.ck-interruptor span::before{
+  content:""; position:absolute; top:3px; left:3px; width:21px; height:21px;
+  background:#fff; border-radius:50%; transition:transform .2s ease;
+}
+.ck-interruptor input:checked + span{ background:var(--ember); }
+.ck-interruptor input:checked + span::before{ transform:translateX(21px); }
+.ck-interruptor input:disabled + span{ opacity:.5; cursor:not-allowed; }
+.ck-interruptor input:focus-visible + span{ outline:2px solid var(--ink); outline-offset:2px; }
+
+/* Botón permanente para volver a decidir */
+.ck-reabrir{
+  position:fixed; left:16px; bottom:16px; z-index:9997; display:none;
+  background:var(--ink); color:var(--paper); border:0; border-radius:2px;
+  font-family:var(--font-text); font-size:.7rem; font-weight:640;
+  letter-spacing:.08em; text-transform:uppercase;
+  padding:9px 14px; cursor:pointer; opacity:.55;
+  transition:opacity .2s ease,background .2s ease;
+}
+.ck-reabrir.visible{ display:block; }
+.ck-reabrir:hover,.ck-reabrir:focus-visible{ opacity:1; background:var(--ember); }
+
+@media (max-width:640px){
+  .ck-banner{ padding:18px 16px; max-height:76vh; overflow:auto; }
+  .ck-banner__acciones{ width:100%; }
+  .ck-banner__acciones .ck-btn{ flex:1 1 0; padding:13px 10px; }
+  .ck-enlace{ flex:1 1 100%; text-align:center; }
+  .ck-panel__pie .ck-btn{ flex:1 1 100%; }
+  .ck-reabrir{ left:10px; bottom:10px; }
+}
+@media (prefers-reduced-motion:reduce){ .ck-banner.visible{ animation:none; } }
