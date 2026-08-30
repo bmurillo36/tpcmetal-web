@@ -812,6 +812,39 @@ gtag('consent','default',{'analytics_storage':'denied','functionality_storage':'
 </nav>
 <script>
 document.querySelectorAll('.mnav a').forEach(function(a){a.addEventListener('click',function(){var d=a.closest('details');if(d)d.open=false;});});
+
+/* Desplazamiento a los apartados de la propia pagina.
+   Lo hacemos a mano porque el salto que trae el navegador no funcionaba aqui:
+   se cambiaba la direccion a #reserva pero la pagina no se movia, ni con
+   «Contacto» ni con «Reservar plaza». Asi ademas se descuenta la altura de la
+   barra de arriba, que es fija y si no tapa el titulo del apartado. */
+(function(){
+  function alto(){ var c=document.querySelector('.callbar'), h=document.querySelector('.head,.header,header'); 
+    return (c?c.offsetHeight:0) + (h&&getComputedStyle(h).position==='sticky'?h.offsetHeight:0) + 8; }
+  function ir(destino, conAnimacion){
+    var y = destino.getBoundingClientRect().top + window.pageYOffset - alto();
+    window.scrollTo({ top: Math.max(0,y), behavior: conAnimacion ? 'smooth' : 'auto' });
+  }
+  document.addEventListener('click', function(e){
+    var a = e.target.closest && e.target.closest('a[href^="#"]');
+    if(!a) return;
+    var id = a.getAttribute('href').slice(1);
+    if(!id) return;
+    var destino = document.getElementById(id);
+    if(!destino) return;
+    e.preventDefault();
+    var suave = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+    ir(destino, suave);
+    history.pushState(null,'','#'+id);
+    var d=a.closest('details'); if(d) d.open=false;      // cerrar el menu del movil
+  });
+  /* Y si se entra directamente con la direccion puesta (…/#reserva) */
+  window.addEventListener('load', function(){
+    if(!location.hash) return;
+    var destino=document.getElementById(location.hash.slice(1));
+    if(destino) setTimeout(function(){ ir(destino,false); }, 120);
+  });
+})();
 </script>
 <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
 <script src="js/formulario.js" defer></script>
