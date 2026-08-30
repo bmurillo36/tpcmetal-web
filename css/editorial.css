@@ -1026,11 +1026,31 @@ figure{ margin:0; }
 .ck-reabrir.visible{ display:block; }
 .ck-reabrir:hover,.ck-reabrir:focus-visible{ opacity:1; background:var(--ember); }
 
+/* Pantallas estrechas o bajas: los BOTONES SIEMPRE A LA VISTA.
+   Antes el cuadro entero se desplazaba, y con el texto largo los botones
+   quedaban fuera de la pantalla: parecia que no hubiera botones. Ahora el
+   cuadro se reparte en dos, y lo unico que se desplaza es el texto. */
+@media (max-width:900px), (max-height:560px){
+  .ck-banner{ padding:16px; max-height:82vh; display:flex; overflow:hidden; }
+  .ck-banner__inner{
+    display:flex; flex-direction:column; gap:14px;
+    max-height:100%; width:100%; min-height:0;
+  }
+  .ck-banner__texto{
+    flex:1 1 auto; min-height:0; overflow-y:auto;   /* solo se desplaza el texto */
+    -webkit-overflow-scrolling:touch;
+  }
+  .ck-banner__acciones{
+    flex:0 0 auto;                                   /* los botones no se encogen */
+    width:100%; gap:8px;
+    padding-top:12px; border-top:1px solid var(--paper-cold);
+  }
+  .ck-banner__acciones .ck-btn{ flex:1 1 0; padding:14px 8px; min-height:46px; }
+  .ck-enlace{ flex:1 1 100%; text-align:center; padding:10px 6px; }
+}
 @media (max-width:640px){
-  .ck-banner{ padding:18px 16px; max-height:76vh; overflow:auto; }
-  .ck-banner__acciones{ width:100%; }
-  .ck-banner__acciones .ck-btn{ flex:1 1 0; padding:13px 10px; }
-  .ck-enlace{ flex:1 1 100%; text-align:center; }
+  .ck-banner__texto p{ font-size:.82rem; line-height:1.5; }
+  .ck-panel{ max-height:84vh; }
   .ck-panel__pie .ck-btn{ flex:1 1 100%; }
   .ck-reabrir{ left:10px; bottom:10px; }
 }
