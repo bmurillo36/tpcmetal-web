@@ -1049,3 +1049,34 @@ figure{ margin:0; }
   .ck-panel__pie .ck-btn{ flex:1 1 100%; }
 }
 @media (prefers-reduced-motion:reduce){ .ck-banner.visible{ animation:none; } }
+
+
+/* --- 18. DURACIONES DE LA PORTADA ---------------------------------------- */
+.duraciones{ margin-top:clamp(20px,2.4vw,30px); }
+.duraciones__titulo{
+  font-size:.66rem; letter-spacing:.2em; text-transform:uppercase;
+  color:rgba(255,255,255,.62); margin:0 0 10px;
+}
+.duraciones__lista{ list-style:none; margin:0; padding:0; display:grid; gap:7px; }
+.duraciones__lista li{
+  display:flex; align-items:baseline; gap:12px;
+  font-size:.87rem; line-height:1.45; color:rgba(255,255,255,.86);
+}
+.duraciones__h{
+  flex:0 0 46px; font-family:var(--font-display); font-size:1.05rem;
+  font-weight:600; color:var(--paper); font-variant-numeric:tabular-nums;
+}
+.duraciones__q{ flex:1 1 auto; }
+.duraciones__lista li.es-top .duraciones__h{ color:#F3A183; }
+.duraciones__sello{
+  display:inline-flex; align-items:center; gap:5px; vertical-align:middle;
+  margin-left:10px; padding:3px 9px; border-radius:999px; white-space:nowrap;
+  background:var(--ember); color:#fff;
+  font-size:.62rem; font-weight:700; letter-spacing:.09em; text-transform:uppercase;
+}
+.duraciones__sello svg{ flex:0 0 auto; }
+@media (max-width:640px){
+  .duraciones__lista li{ font-size:.83rem; flex-wrap:wrap; }
+  .duraciones__h{ flex:0 0 42px; }
+  .duraciones__sello{ margin-left:0; margin-top:4px; }
+}
