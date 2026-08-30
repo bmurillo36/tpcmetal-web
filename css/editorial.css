@@ -70,7 +70,10 @@ body{
   line-height:1.75;
   font-feature-settings:"kern" 1,"liga" 1;
   -webkit-font-smoothing:antialiased;
-  overflow-x:hidden;
+  /* "clip" y no "hidden": con hidden el <body> se convierte en contenedor de
+     scroll, y entonces Chrome no desplaza a los anclas (#reserva, #cursos...).
+     clip recorta igual el desbordamiento lateral sin crear ese contenedor. */
+  overflow-x:clip;
 }
 img,svg,iframe{ max-width:100%; }
 img{ height:auto; display:block; }
