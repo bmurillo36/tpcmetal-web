@@ -34,12 +34,24 @@ PASO-A-PASO.md                Cómo publicar la web, paso a paso
 
 ## El formulario y el CRM
 
-El formulario envía el campo **Origen antes que Mensaje**: el lector de
-correo de la Suite pega al mensaje todo lo que viene detrás de él, y con
-otro orden el CRM recibía el mensaje contaminado.
+El formulario envía a **`https://formularios.tpcmetal.es/enviar/tpcmetal`**,
+el servicio de formularios propio del VPS: apunta cada envío antes de
+mandarlo al buzón, y el Monitor cruza esa lista con el CRM para avisar si un
+lead se pierde por el camino. La web de origen la da el propio destino
+(`/enviar/tpcmetal`). En la versión antigua de `main` el envío era distinto
+y el campo **Origen iba antes que Mensaje** (el lector de la Suite pega al
+mensaje todo lo que viene detrás de él); en `editorial` ya no hace falta.
 
-## Pendiente antes de publicar en el dominio real
+## Publicada y funcionando (comprobado el 02/09/2026)
 
-1. **Formulario**: envía a través de FormSubmit.co hacia `info@prevencionmadrid.es`. El **primer envío** manda un correo de activación a esa dirección: hay que abrirlo y pulsar el enlace de confirmación una sola vez.
-2. **Dominio**: el sitio está pensado para servirse en `https://www.tpcmetal.es/` (las canónicas y el sitemap.xml ya apuntan ahí). Al publicarlo en IONOS (o apuntar el DNS a GitHub Pages) no hay que cambiar nada.
-3. En el aviso legal aparece el correo `info@prevencion.com` (así está en la web actual; revisar si es una errata por `info@prevencionmadrid.es`).
+1. **La web está en producción**: `www.tpcmetal.es` apunta por CNAME a
+   GitHub Pages (`bmurillo36.github.io`), que sirve la rama **editorial**.
+   El plan antiguo de subirla a IONOS quedó superado: IONOS conserva el DNS
+   y el correo; la web la sirve Pages, y con el push queda publicada.
+2. **Lo de FormSubmit de la primera versión ya no aplica**: el formulario va
+   por el servicio propio (véase arriba), y los leads de tpcmetal.es llegan
+   al CRM — se ve en la pestaña Mail del Monitor.
+3. La medición va con Tag Manager propio, **GTM-KPPWWKD5** (02/09/2026).
+4. **Único repaso pendiente**: en el aviso legal aparece el correo
+   `info@prevencion.com` (venía así de la web antigua); confirmar si es una
+   errata por `info@prevencionmadrid.es`.
