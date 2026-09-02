@@ -266,7 +266,7 @@ curl -s -o /dev/null -w "%{http_code}\n" http://tpcmetal.es/
 2. *Sitemaps* → vuelve a enviar `sitemap.xml`.
 3. *Inspección de URLs* → pide indexación de las 5 URLs históricas, una a una.
 4. *Cobertura* → vigila 15 días que no aparezcan 404 nuevos.
-5. **Google Tag Manager**: el contenedor **GTM-5NTZ43SH** está puesto en las
+5. **Google Tag Manager**: el contenedor **GTM-KPPWWKD5** está puesto en las
    7 páginas (script en `<head>` y `<noscript>` en `<body>`). No hay que tocar
    nada en GTM.
 6. **Google Ads**: las URLs de destino de tus campañas no cambian, así que los
@@ -283,7 +283,7 @@ curl -s -o /dev/null -w "%{http_code}\n" http://tpcmetal.es/
   `/cómo-llegar/`, `/aviso-legal/`, `/política-de-cookies/`.
 - **`/sitemap/`**, que estaba enlazada en el pie de la web antigua.
 - **Los `<title>` y `keywords`** de cada página (mejorados, sin perder términos).
-- **Google Tag Manager GTM-5NTZ43SH**.
+- **Google Tag Manager GTM-KPPWWKD5**.
 - **Los dos sellos de Emagister** (calidad y valoraciones), con sus enlaces.
 - **El calendario de Google** incrustado
   (`td0d9je4jt6r5sga4t97f5gk5k@group.calendar.google.com`, zona Europe/Madrid).
