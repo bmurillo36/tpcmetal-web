@@ -1,0 +1,15 @@
+{
+  "url": "https://www.tpcmetal.es",
+  "dominio": "tpcmetal.es",
+  "ruta": "/blog/",
+  "nombre_blog": "Blog de la Tarjeta TPC del Metal",
+  "descripcion_blog": "Artículos sobre la Tarjeta Profesional de la Construcción del sector del metal: cursos, reciclaje, renovación, oficios y trámites, escritos por el equipo de Prevención Siglo 21 en Móstoles.",
+  "autor": "Prevención Siglo 21",
+  "imagen": "/img/tarjeta-tpc-metal-portada-editorial.svg",
+  "categoria_por_defecto": "Tarjeta TPC Metal",
+  "sitemap_estilo": "largo",
+  "clase_rejilla": "cards",
+  "clase_tarjeta": "card entrada-blog",
+  "relacionados_inicio": "<section class=\"section section--warm\"><div class=\"grid\"><div class=\"col-main\"><p class=\"eyebrow\">Más artículos</p>",
+  "relacionados_fin": "</div></div></section>"
+}
