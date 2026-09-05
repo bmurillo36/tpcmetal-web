@@ -240,6 +240,40 @@ Si lo que cambia son los cursos, antes del commit:
 
     python herramientas/cursos.py index.html
 
+### 5.1 Avisar a Bing de lo que has publicado (IndexNow)
+
+**Después de subirlo**, y solo después:
+
+    node _blog/avisar-indexnow.js --esperar
+
+Espera a que las páginas estén en línea (Pages tarda un minuto en
+reconstruir) y entonces avisa a Bing de las que llevan la fecha de hoy en el
+sitemap. Sin esto, Bing tarda **semanas** en enterarse de un artículo nuevo;
+con esto, horas. Y aquí se publican diez artículos por semana.
+
+Otras formas de llamarlo:
+
+    node _blog/avisar-indexnow.js --todo       la web entera (la primera vez)
+    node _blog/avisar-indexnow.js --probar     no manda nada, solo lo cuenta
+    node _blog/avisar-indexnow.js <url> <url>  esas direcciones y nada más
+
+Lo que hay que saber:
+
+- **Va después del push, nunca antes.** Avisar de una página que todavía no
+  está publicada es gastar el aviso para nada: Bing va a mirarla y no la
+  encuentra.
+- La clave está publicada en la raíz, en
+  `a70a4940c8a7423797b1a77a84ce7728.txt`. **No es un secreto**: así es como
+  IndexNow comprueba que la web es nuestra. Si ese fichero desaparece, Bing
+  rechaza los avisos con un 403.
+- Respuestas normales: **200** (recibido) y **202** (recibido, comprobando la
+  clave). El programa traduce los demás códigos.
+- **No avises de la web entera a cada rato**: para eso está el modo de por
+  defecto, que manda solo lo que cambió hoy.
+- Está escrito en Node y no en Python **a propósito**: en el PC de Pedro el
+  antivirus rompe la verificación de certificados de Python y ninguna
+  petición https le funciona.
+
 ---
 
 ## 6. Comprobación post-publicación (el mismo día)
