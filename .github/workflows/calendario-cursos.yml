@@ -1,0 +1,59 @@
+# Mantiene al día el calendario de cursos de la portada.
+#
+# La hoja de Google de Pedro se actualiza sola todos los días; esta web es
+# estática, así que sin esto el calendario se queda congelado en el día que
+# alguien ejecutó el generador a mano. Pasó: en septiembre seguía anunciando
+# la semana del 31 de agosto.
+#
+# No hace falta ninguna clave: la hoja se lee por su CSV público.
+name: Calendario de cursos
+
+on:
+  schedule:
+    - cron: "20 5 * * *"    # 07:20 en Madrid (06:20 en invierno)
+    - cron: "20 17 * * *"   # 19:20 en Madrid (18:20 en invierno)
+  workflow_dispatch:        # y a mano cuando haga falta
+
+permissions:
+  contents: write
+
+concurrency:
+  group: calendario-cursos
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: editorial
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Releer la hoja y regenerar el calendario
+        run: |
+          salida=$(python herramientas/cursos.py index.html)
+          echo "$salida"
+          n=$(echo "$salida" | grep -o 'convocatorias: [0-9]*' | grep -o '[0-9]*' | head -1)
+          # Si la hoja no contesta o viene vacia, NO se publica un calendario
+          # vacio: se deja el que habia y el trabajo falla para que se vea.
+          if [ -z "$n" ] || [ "$n" -lt 1 ]; then
+            echo "::error::La hoja no devolvio ninguna convocatoria. No se toca la web."
+            git restore index.html
+            exit 1
+          fi
+
+      - name: Publicar solo si ha cambiado
+        run: |
+          if [ -z "$(git status --porcelain index.html)" ]; then
+            echo "El calendario ya estaba al dia."
+            exit 0
+          fi
+          git config user.name "Calendario de cursos"
+          git config user.email "actions@users.noreply.github.com"
+          git add index.html
+          git commit -m "Calendario de cursos al dia desde la hoja"
+          git push
