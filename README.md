@@ -51,7 +51,7 @@ mensaje todo lo que viene detrás de él); en `editorial` ya no hace falta.
 2. **Lo de FormSubmit de la primera versión ya no aplica**: el formulario va
    por el servicio propio (véase arriba), y los leads de tpcmetal.es llegan
    al CRM — se ve en la pestaña Mail del Monitor.
-3. La medición va con Tag Manager propio, **GTM-KPPWWKD5** (02/09/2026).
+3. La medición va con Tag Manager propio, **GTM-5NTZ43SH** (02/09/2026).
 4. **Único repaso pendiente**: en el aviso legal aparece el correo
    `info@prevencion.com` (venía así de la web antigua); confirmar si es una
    errata por `info@prevencionmadrid.es`.
