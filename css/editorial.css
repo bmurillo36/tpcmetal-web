@@ -1,3 +1,74 @@
+/* --- 0. TIPOGRAFÍAS ------------------------------------------------------
+   Servidas desde nuestro propio dominio: antes se pedían a
+   fonts.googleapis.com en cada visita, dos conexiones a servidores ajenos
+   antes de poder pintar la página.
+
+   Inter va en UN solo fichero variable (pesos 100 a 900). Hasta el
+   09/09/2026 estaba declarada como cinco pesos sueltos apuntando a cinco
+   URL distintas... que eran el MISMO fichero repetido: el móvil se bajaba
+   241 KB de tipografía para usar 48 KB. Medido con md5sum: los cinco
+   inter-normal-*.woff2 tenían el mismo hash.
+   Si algún día se cambia la tipografía hay que rehacer también los .woff2
+   de /fuentes/: no basta con tocar este bloque.
+
+   Estos @font-face vivían en /css/fuentes.css, un segundo CSS que bloqueaba
+   el pintado de la página para 1,4 KB. Van aquí para ahorrar esa petición.
+   ------------------------------------------------------------------------ */
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/fuentes/inter-variable-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/fuentes/inter-variable-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url(/fuentes/bodoni-moda-normal-400-900-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url(/fuentes/bodoni-moda-normal-400-900-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: italic;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url(/fuentes/bodoni-moda-italic-400-900-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: italic;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url(/fuentes/bodoni-moda-italic-400-900-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
 /* ==========================================================================
    TPC METAL — Sistema de diseño editorial
    Prevención Siglo 21 · Centro homologado Fundación Laboral de la Construcción
@@ -13,12 +84,19 @@
   --paper-cold:   #E7E9EB;
   --ink:          #0E1114;
   --ink-soft:     #383F46;
-  --steel:        #7E868F;
+  /* 09/09/2026: era #7E868F. Sobre el papel calido daba 3,4:1 de contraste
+     y la norma pide 4,5:1 para texto pequeno; PageSpeed marcaba con el
+     mas de 80 rotulos (fechas del calendario, pies de foto, "2 GRUPOS").
+     Este tono conserva el matiz acero y llega a 4,8:1. */
+  --steel:        #5F676F;
   --rule:         #D6D1C8;
   --rule-soft:    #E4E0D8;
 
   /* Acento */
-  --ember:        #C8410D;
+  /* 09/09/2026: era #C8410D, 4,2:1 sobre el papel calido. Apenas se
+     distingue del anterior y sube a 4,6:1; ademas mejora el blanco
+     sobre los botones de este color. */
+  --ember:        #BE3C0B;
   --ember-deep:   #8F2D07;
   --navy:         #14202F;
   --navy-soft:    #1E2E42;
@@ -116,7 +194,22 @@ hr{ border:0; border-top:1px solid var(--rule); margin:var(--space-l) 0; }
 
 .section{ padding-block:var(--space-section); }
 .section--tight{ padding-block:clamp(48px,6vw,88px); }
-.section--dark{ background:var(--navy); color:var(--paper); }
+.section--dark{
+  background:var(--navy);
+  color:var(--paper);
+  /* Sobre el azul oscuro el acero se queda en 4,4:1: los rotulos pequenos
+     del formulario ("(opcional)", "* Campos obligatorios") no se leian
+     bien. Aqui se aclara. El ascua NO se redefine como variable porque
+     dentro de esta seccion tambien es el fondo del boton de enviar
+     (.btn--ember) y aclararlo dejaria el texto blanco sin contraste;
+     los textos de color ascua van en la regla de abajo, uno a uno. */
+  --steel:#A9B7C5;
+}
+/* Textos —no fondos— de color ascua sobre el azul oscuro. */
+.section--dark .bloque-datos__titulo,
+.section--dark .field .req,
+.section--dark .consent.field--error span{ color:#FF9A63; }
+.section--dark .field--error label{ color:#FF9A63 !important; }
 .section--dark .eyebrow{ color:#9BB0C6; }
 .section--dark a{ color:var(--paper); }
 .section--warm{ background:var(--paper-warm); }
@@ -363,7 +456,7 @@ h2.display,h2.h2{ margin-bottom:var(--space-m); }
 .btn--grande{
   font-size:1.02rem; padding:20px 44px; letter-spacing:.1em;
   border-radius:3px;
-  box-shadow:0 6px 22px rgba(200,65,13,.34);
+  box-shadow:0 6px 22px rgba(190,60,11,.34);
 }
 .btn--laser{
   position:relative; overflow:hidden; isolation:isolate;
@@ -376,19 +469,26 @@ h2.display,h2.h2{ margin-bottom:var(--space-m); }
   background:linear-gradient(100deg,transparent 0%,rgba(255,255,255,.10) 28%,
     rgba(255,255,255,.72) 50%,rgba(255,255,255,.10) 72%,transparent 100%);
   transform:skewX(-18deg);
+  /* El barrido se mueve con transform, no con "left". Con "left" el navegador
+     recalculaba la posicion de la pagina en cada fotograma, sin parar, en un
+     bucle infinito: PageSpeed lo marcaba como "animacion no compuesta" y en un
+     movil modesto se nota. Con transform lo lleva la tarjeta grafica.
+     El recorrido es el mismo: la franja mide 38% del boton y antes iba de
+     -50% a 118%, o sea 168% del boton = 442% de su propio ancho. */
   animation:laser-barrido 3.1s cubic-bezier(.5,0,.5,1) infinite;
+  will-change:transform;
 }
 .btn--laser:hover{ animation:none; transform:translateY(-1px); }
 .btn--laser:hover::after{ animation-duration:1.1s; }
 
 @keyframes laser-barrido{
-  0%   { left:-50%; }
-  55%  { left:118%; }
-  100% { left:118%; }
+  0%   { transform:translateX(0)    skewX(-18deg); }
+  55%  { transform:translateX(442%) skewX(-18deg); }
+  100% { transform:translateX(442%) skewX(-18deg); }
 }
 @keyframes latido-ember{
-  0%,100%{ box-shadow:0 6px 22px rgba(200,65,13,.34); }
-  50%    { box-shadow:0 6px 30px rgba(200,65,13,.62); }
+  0%,100%{ box-shadow:0 6px 22px rgba(190,60,11,.34); }
+  50%    { box-shadow:0 6px 30px rgba(190,60,11,.62); }
 }
 /* Quien pida menos movimiento, no ve ni barrido ni latido */
 @media (prefers-reduced-motion:reduce){

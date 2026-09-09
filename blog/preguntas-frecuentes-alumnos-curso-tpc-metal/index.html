@@ -21,16 +21,45 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta name="theme-color" content="#0E1114">
-<link rel="preload" href="/fuentes/inter-normal-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<!-- Cookiebot y Google Tag Manager viven en otros dominios: abrir la conexión
+     mientras se lee esta cabecera ahorra ~300 ms antes de la primera peticion. -->
+<link rel="preconnect" href="https://consent.cookiebot.com" crossorigin>
+<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+<link rel="preload" href="/fuentes/inter-variable-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fuentes/bodoni-moda-normal-400-900-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/css/fuentes.css">
 <link rel="stylesheet" href="/css/editorial.css">
 <!-- Consentimiento por defecto: denegado hasta que el visitante decida (Consent Mode v2) -->
 <script>
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
 gtag('consent','default',{'analytics_storage':'denied','functionality_storage':'denied','ad_storage':'denied','ad_user_data':'denied','ad_personalization':'denied','security_storage':'granted','wait_for_update':500});
 </script>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5NTZ43SH');</script>
+<script>
+/* Desde el 09/09/2026 el contenedor no se pide al abrir la pagina, sino en
+   cuanto el visitante hace algo (tocar, bajar, teclear, mover el raton), o a
+   los 3 segundos, o si se va de la pestana: lo que pase antes. El contenedor
+   es el mismo de siempre, GTM-5NTZ43SH, y el modo de consentimiento sigue
+   estando arriba, antes que nada.
+   Por que: entre Tag Manager y Cookiebot eran 344 KB de JavaScript de fuera
+   que se pedian antes de que la pagina terminara de pintarse; PageSpeed daba
+   161 KB de ese codigo como no usado.
+   OJO: en /gracias/ esto NO se retrasa. Esa pagina es la que cuenta la
+   matricula, y quien la cierre en dos segundos no puede quedarse sin contar. */
+(function(w,d,s,l,i){
+  var pedido=false;
+  function pedir(){
+    if(pedido) return; pedido=true;
+    w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+    var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+    j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+    f.parentNode.insertBefore(j,f);
+  }
+  ['pointerdown','touchstart','keydown','scroll','wheel','mousemove'].forEach(function(ev){
+    d.addEventListener(ev,pedir,{once:true,passive:true,capture:true});
+  });
+  d.addEventListener('visibilitychange',function(){ if(d.visibilityState==='hidden') pedir(); });
+  setTimeout(pedir,3000);
+})(window,document,'script','dataLayer','GTM-5NTZ43SH');
+</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Preguntas que nos hacen los alumnos antes de apuntarse", "description": "Dudas reales que resolvemos por teléfono antes de matricular a alguien en el curso TPC del metal, sobre idioma, validez y faltar un día de clase.", "datePublished": "2026-08-31", "dateModified": "2026-08-31", "inLanguage": "es", "mainEntityOfPage": "https://www.tpcmetal.es/blog/preguntas-frecuentes-alumnos-curso-tpc-metal/", "url": "https://www.tpcmetal.es/blog/preguntas-frecuentes-alumnos-curso-tpc-metal/", "articleSection": "Cursos", "author": {"@type": "Organization", "name": "Prevención Siglo 21", "url": "https://www.tpcmetal.es"}, "publisher": {"@type": "Organization", "name": "Prevención Siglo 21", "url": "https://www.tpcmetal.es"}, "isPartOf": {"@type": "Blog", "name": "Blog de la Tarjeta TPC del Metal", "url": "https://www.tpcmetal.es/blog/"}, "image": "https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg"}</script>
 </head>
 <body>
