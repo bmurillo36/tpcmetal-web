@@ -1,6 +1,15 @@
 /* Validación del formulario en cristiano: dice exactamente qué falta.
    Obligatorio: nombre, un teléfono O un correo, y aceptar la privacidad. */
 (function () {
+  // Sello antispam (15/09/2026): hora de carga en el campo oculto _t. El servicio
+  // de formularios descarta lo que llega sin el o en menos de 3 s.
+  var sello = Date.now().toString(36);
+  Array.prototype.forEach.call(document.querySelectorAll('form[action*="/enviar/"]'), function (f) {
+    var c = document.createElement('input');
+    c.type = 'hidden'; c.name = '_t'; c.value = sello;
+    f.appendChild(c);
+  });
+
   var formularios = document.querySelectorAll('form.form[novalidate]');
 
   Array.prototype.forEach.call(formularios, function (form) {
