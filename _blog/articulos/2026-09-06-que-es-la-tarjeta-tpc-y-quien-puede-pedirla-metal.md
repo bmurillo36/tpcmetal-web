@@ -40,6 +40,6 @@ En todos los casos hace falta, como mínimo, haber recibido la formación inicia
 
 Nosotros no expedimos la tarjeta. Impartimos la formación presencial que la Fundación exige y entregamos el título con el que después se tramita. Es un reparto de papeles que conviene tener claro antes de llamar: el centro forma, la Fundación acredita.
 
-Si es la primera vez que se pone con esto y no sabe si el curso que necesita es el completo de veinte horas o solo la parte específica de su oficio, puede empezar por el [índice de cursos](/#cursos) de esta web, donde están los cinco itinerarios con su duración y su precio. Si lo prefiere, llámenos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 17 horas y los viernes de 8 horas a 15 horas, y lo miramos juntos.
+Si es la primera vez que se pone con esto y no sabe si el curso que necesita es el completo de veinte horas o solo la parte específica de su oficio, puede empezar por el [índice de cursos](/#cursos) de esta web, donde están los cinco itinerarios con su duración y su precio. Si lo prefiere, llámenos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 18 horas y los viernes de 8 horas a 15 horas, y lo miramos juntos.
 
 > Fuente: «Información general» de la Tarjeta Profesional de la Construcción, Fundación Laboral de la Construcción, febrero de 2026.

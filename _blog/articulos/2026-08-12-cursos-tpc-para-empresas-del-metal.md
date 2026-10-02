@@ -56,4 +56,4 @@ Si alguno pierde el suyo, se puede expedir un duplicado sin necesidad de repetir
 
 Somos centro homologado por la Fundación Laboral de la Construcción, con número de registro 0505101086, y entidad especializada en la Comunidad de Madrid con el número CM 87/2006. Llevamos más de veinte años formando en Móstoles, con un catálogo que pasa de cien cursos entre construcción y metal.
 
-Para organizar la formación de su plantilla: 630 29 25 16, 91 617 04 23 o info@tpcmetal.es. Atendemos de lunes a jueves de 8 horas a 17 horas y los viernes de 8 horas a 15 horas.
+Para organizar la formación de su plantilla: 630 29 25 16, 91 617 04 23 o info@tpcmetal.es. Atendemos de lunes a jueves de 8 horas a 18 horas y los viernes de 8 horas a 15 horas.

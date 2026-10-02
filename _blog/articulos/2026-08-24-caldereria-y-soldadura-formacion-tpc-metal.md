@@ -39,4 +39,4 @@ Es habitual que, además de la duda del curso, la persona pregunte por el recicl
 
 Tenga a mano tres datos cuando llame: qué fabrica o repara habitualmente, si suelda usted mismo o solo ensambla lo que otro ha soldado, y qué le ha pedido la empresa por escrito, si lo tiene. Con eso resolvemos la duda en la misma llamada.
 
-Puede consultar las dos especialidades relacionadas en nuestro [listado de especialidades del metal](/#especialidades) y reservar plaza en el 630 29 25 16 o el 91 617 04 23, de lunes a jueves de 8 horas a 17 horas y los viernes de 8 horas a 15 horas. La parte específica de seis horas cuesta 70 € en cualquiera de las dos.
+Puede consultar las dos especialidades relacionadas en nuestro [listado de especialidades del metal](/#especialidades) y reservar plaza en el 630 29 25 16 o el 91 617 04 23, de lunes a jueves de 8 horas a 18 horas y los viernes de 8 horas a 15 horas. La parte específica de seis horas cuesta 70 € en cualquiera de las dos.

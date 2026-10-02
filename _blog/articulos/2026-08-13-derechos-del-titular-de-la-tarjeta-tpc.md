@@ -39,6 +39,6 @@ El reglamento también fija obligaciones, y son pocas y razonables: conservar la
 
 Nada de lo anterior existe sin el primer paso, que es la formación inicial en prevención de riesgos laborales. Sin ese curso hecho no hay expediente que consultar ni derechos que ejercer, porque no hay tarjeta.
 
-Si todavía no la tiene y trabaja en el metal, en nuestro centro de Móstoles tiene convocatorias presenciales durante toda la semana. Consulte el [calendario de cursos](/#calendario) o llámenos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 17 horas y los viernes de 8 horas a 15 horas.
+Si todavía no la tiene y trabaja en el metal, en nuestro centro de Móstoles tiene convocatorias presenciales durante toda la semana. Consulte el [calendario de cursos](/#calendario) o llámenos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 18 horas y los viernes de 8 horas a 15 horas.
 
 > Fuente: «Información general» de la Tarjeta Profesional de la Construcción, Fundación Laboral de la Construcción, febrero de 2026.

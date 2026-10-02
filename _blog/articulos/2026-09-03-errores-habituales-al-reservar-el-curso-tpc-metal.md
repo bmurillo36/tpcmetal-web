@@ -39,4 +39,4 @@ Las plazas de cada grupo son limitadas. Si sabe con antelación que no va a pode
 
 ## Cómo evitarlos todos de una vez
 
-La mayoría de estos errores se resuelven con una sola llamada antes de reservar, contándonos con detalle su situación: oficio, lo que le pide la empresa y si ya tiene formación previa. Consulte el [índice de cursos](/#cursos) de esta web y llámenos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 17 horas y los viernes de 8 horas a 15 horas.
+La mayoría de estos errores se resuelven con una sola llamada antes de reservar, contándonos con detalle su situación: oficio, lo que le pide la empresa y si ya tiene formación previa. Consulte el [índice de cursos](/#cursos) de esta web y llámenos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 18 horas y los viernes de 8 horas a 15 horas.

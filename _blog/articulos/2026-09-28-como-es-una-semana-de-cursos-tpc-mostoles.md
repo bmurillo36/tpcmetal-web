@@ -7,7 +7,7 @@ entradilla: Detrás de cada convocatoria hay un calendario que se arma oficio a 
 
 ## Un aula, varios oficios, un mismo edificio
 
-En el centro de la calle La Fragua no hay un único grupo dando vueltas todo el día. Entre lunes y viernes se suceden convocatorias distintas: reciclaje de 4 horas por la mañana, parte específica de 6 horas de otro oficio por la tarde, y algún grupo de 20 horas repartido en varias jornadas. El horario del centro es de lunes a jueves de 8 a 17 horas, y los viernes de 8 a 15 horas, y dentro de ese marco se van encajando las convocatorias según la demanda.
+En el centro de la calle La Fragua no hay un único grupo dando vueltas todo el día. Entre lunes y viernes se suceden convocatorias distintas: reciclaje de 4 horas por la mañana, parte específica de 6 horas de otro oficio por la tarde, y algún grupo de 20 horas repartido en varias jornadas. El horario del centro es de lunes a jueves de 8 a 18 horas, y los viernes de 8 a 15 horas, y dentro de ese marco se van encajando las convocatorias según la demanda.
 
 Esto tiene una consecuencia práctica: dos personas que llaman el mismo día pidiendo "el curso del metal" pueden acabar en aulas distintas, en días distintos, porque su oficio o su itinerario no coincide. No es descoordinación, es que la tarjeta se cursa por especialidad y no todas tienen la misma demanda cada semana.
 
@@ -31,4 +31,4 @@ En un curso de una sola jornada, como el reciclaje de 4 horas o el específico d
 
 Presencialidad, evaluación y entrega de título con las mismas condiciones, sea la primera semana del año o la última. Lo único que varía es qué oficio tiene grupo abierto esa semana concreta, y eso es precisamente lo que resolvemos por teléfono antes de que vengas.
 
-Si quieres saber qué convocatoria hay abierta para tu oficio esta semana, consulta el [calendario de cursos](/#calendario) o llama al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 a 17 horas y los viernes de 8 a 15 horas.
+Si quieres saber qué convocatoria hay abierta para tu oficio esta semana, consulta el [calendario de cursos](/#calendario) o llama al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 a 18 horas y los viernes de 8 a 15 horas.

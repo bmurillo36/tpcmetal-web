@@ -53,4 +53,4 @@ Salvo el de directivos, **ningún curso de la tarjeta vale si se hace por intern
 
 ## Si sigue sin tenerlo claro
 
-Es lo normal, y no pasa nada. Llame al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 17 horas y los viernes de 8 horas a 15 horas, cuéntenos qué le ha pedido la empresa exactamente (o léanos el correo, que muchas veces lo trae escrito) y le decimos qué curso le toca y cuándo hay convocatoria. Estamos en la calle La Fragua 1 de Móstoles, y las plazas se confirman por teléfono.
+Es lo normal, y no pasa nada. Llame al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 18 horas y los viernes de 8 horas a 15 horas, cuéntenos qué le ha pedido la empresa exactamente (o léanos el correo, que muchas veces lo trae escrito) y le decimos qué curso le toca y cuándo hay convocatoria. Estamos en la calle La Fragua 1 de Móstoles, y las plazas se confirman por teléfono.

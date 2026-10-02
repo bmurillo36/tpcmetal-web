@@ -51,4 +51,4 @@ Si el extraviado es el título del curso que hizo con nosotros, podemos expedirl
 
 > Fuente: «Información general de la Tarjeta Profesional de la Construcción», Fundación Laboral de la Construcción, febrero de 2026.
 
-Para el curso, en Móstoles: 630 29 25 16 y 91 617 04 23, de lunes a jueves de 8 horas a 17 horas y los viernes de 8 horas a 15 horas.
+Para el curso, en Móstoles: 630 29 25 16 y 91 617 04 23, de lunes a jueves de 8 horas a 18 horas y los viernes de 8 horas a 15 horas.

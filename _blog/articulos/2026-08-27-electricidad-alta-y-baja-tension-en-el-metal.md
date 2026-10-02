@@ -39,4 +39,4 @@ Al final de las seis horas, el título de la especialidad de electricidad, que e
 
 Si ya hizo en su día la parte común de catorce horas y solo necesita este bloque de su oficio, la parte específica de seis horas le basta. Si nunca ha hecho formación de prevención en el sector, necesita el [curso completo de veinte horas](/#curso-20h), que incluye la parte común y esta especialidad.
 
-Consulte el [calendario de cursos](/#calendario) o llame al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 17 horas y los viernes de 8 horas a 15 horas. La parte específica cuesta 70 € y el curso completo, 120 €.
+Consulte el [calendario de cursos](/#calendario) o llame al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 18 horas y los viernes de 8 horas a 15 horas. La parte específica cuesta 70 € y el curso completo, 120 €.

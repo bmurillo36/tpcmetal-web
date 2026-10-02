@@ -31,4 +31,4 @@ Esa doble condición es la que le permite a un trabajador del metal salir de nue
 
 ## Si le sigue costando ubicar su caso
 
-No pasa nada, es de las cosas que más se explican por teléfono que por escrito. Cuéntenos a qué se dedica exactamente, o léanos lo que le ha pedido la empresa, y le decimos qué curso le corresponde dentro de nuestras cinco especialidades. Llame al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 17 horas y los viernes de 8 horas a 15 horas, o pase por la calle La Fragua 1 de Móstoles.
+No pasa nada, es de las cosas que más se explican por teléfono que por escrito. Cuéntenos a qué se dedica exactamente, o léanos lo que le ha pedido la empresa, y le decimos qué curso le corresponde dentro de nuestras cinco especialidades. Llame al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 18 horas y los viernes de 8 horas a 15 horas, o pase por la calle La Fragua 1 de Móstoles.

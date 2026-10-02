@@ -48,6 +48,6 @@ Solo el DNI o el NIE. El material lo pone el centro, no hace falta que compre na
 
 Son **70 €**, el mismo precio para todas las especialidades.
 
-El específico de seis horas sale todas las semanas en el calendario de Móstoles y es un curso de una sola jornada. Puede consultar las convocatorias abiertas en el [calendario de cursos](/#calendario) y reservar plaza en el 630 29 25 16 o el 91 617 04 23, de lunes a jueves de 8 horas a 17 horas y los viernes de 8 horas a 15 horas.
+El específico de seis horas sale todas las semanas en el calendario de Móstoles y es un curso de una sola jornada. Puede consultar las convocatorias abiertas en el [calendario de cursos](/#calendario) y reservar plaza en el 630 29 25 16 o el 91 617 04 23, de lunes a jueves de 8 horas a 18 horas y los viernes de 8 horas a 15 horas.
 
 Si su especialidad no aparece con fecha esta semana, llame igualmente. Impartimos más oficios de los que en un momento dado tienen convocatoria publicada, y los grupos se abren según la demanda.
