@@ -37,4 +37,4 @@ El título de Nivel Básico, emitido por el centro. Es el documento que le va a 
 
 El Nivel Básico de 60 horas cuesta **180 €**. Para comparar: el curso completo de 20 horas son 120 €, y la parte específica de 6 horas, 70 €.
 
-Las convocatorias se publican en el [calendario de cursos](/#calendario) de esta web, con las fechas reales de cada grupo. Para reservar, o simplemente para que le digamos si este es el curso que necesita, llame al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 18 horas y los viernes de 8 horas a 15 horas. Estamos en la calle La Fragua 1 de Móstoles.
+Las convocatorias se publican en el [calendario de cursos](/#calendario) de esta web, con las fechas reales de cada grupo. Para reservar, o simplemente para que le digamos si este es el curso que necesita, llame al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8:00 a 18:00 y los viernes de 8:00 a 15:00. Estamos en la calle La Fragua 1 de Móstoles.

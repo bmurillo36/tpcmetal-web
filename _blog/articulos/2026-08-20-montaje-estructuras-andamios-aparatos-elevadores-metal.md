@@ -39,4 +39,4 @@ En los dos casos, el título de la especialidad correspondiente, que es el docum
 
 Al llamar, cuéntenos con precisión qué hace en la obra, no solo el nombre general del puesto. «Montador de estructura» y «gruista» no son intercambiables aunque trabajen en el mismo tajo, y confundirlos hace que se matricule en un curso que no le van a aceptar para la tarea que de verdad realiza.
 
-Puede repasar las cinco especialidades del metal en nuestro [listado de especialidades](/#especialidades). Para reservar plaza en cualquiera de ellas, llame al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 18 horas y los viernes de 8 horas a 15 horas. La parte específica de seis horas cuesta 70 € en cualquiera de las dos especialidades.
+Puede repasar las cinco especialidades del metal en nuestro [listado de especialidades](/#especialidades). Para reservar plaza en cualquiera de ellas, llame al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8:00 a 18:00 y los viernes de 8:00 a 15:00. La parte específica de seis horas cuesta 70 € en cualquiera de las dos especialidades.

@@ -44,4 +44,4 @@ En Móstoles, calle La Fragua 1, portal 2. Somos centro homologado por la Fundac
 
 Los precios son los mismos para todas las especialidades: 120 € el curso completo de 20 horas, 70 € la parte específica de 6 horas y el reciclaje, 180 € el Nivel Básico de 60 horas y 90 € el de directivos.
 
-Teléfonos: 630 29 25 16 y 91 617 04 23, de lunes a jueves de 8 horas a 18 horas y los viernes de 8 horas a 15 horas.
+Teléfonos: 630 29 25 16 y 91 617 04 23, de lunes a jueves de 8:00 a 18:00 y los viernes de 8:00 a 15:00.

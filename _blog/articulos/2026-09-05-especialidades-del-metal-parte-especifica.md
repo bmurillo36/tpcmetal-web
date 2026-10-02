@@ -49,4 +49,4 @@ Llame al 630 29 25 16 o al 91 617 04 23, o déjenos sus datos en el formulario d
 
 Tenga a mano tres cosas: a qué se dedica exactamente, qué le ha pedido la empresa (mejor si lo tiene por escrito) y si ha hecho antes algún curso de prevención del sector. Con eso resolvemos la llamada en dos minutos y sabrá con seguridad qué convocatoria le corresponde.
 
-El precio no depende del oficio: la parte específica de 6 horas son **70 €** en cualquiera de las cinco especialidades, y el curso completo de 20 horas, **120 €**. Atendemos el teléfono de lunes a jueves de 8 horas a 18 horas y los viernes de 8 horas a 15 horas.
+El precio no depende del oficio: la parte específica de 6 horas son **70 €** en cualquiera de las cinco especialidades, y el curso completo de 20 horas, **120 €**. Atendemos el teléfono de lunes a jueves de 8:00 a 18:00 y los viernes de 8:00 a 15:00.

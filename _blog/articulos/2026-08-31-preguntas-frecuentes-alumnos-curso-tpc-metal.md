@@ -43,4 +43,4 @@ Para hacer el curso hace falta tener dieciocho años cumplidos. Si tiene diecis�
 
 ### ¿Y si mi pregunta no está aquí?
 
-Es lo más probable, porque cada obra y cada empresa tiene sus particularidades. Llámenos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 18 horas y los viernes de 8 horas a 15 horas, y se la resolvemos en la misma llamada. Puede también echar un vistazo al [apartado de preguntas](/#preguntas) de esta web o pasarse por la calle La Fragua 1 de Móstoles.
+Es lo más probable, porque cada obra y cada empresa tiene sus particularidades. Llámenos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8:00 a 18:00 y los viernes de 8:00 a 15:00, y se la resolvemos en la misma llamada. Puede también echar un vistazo al [apartado de preguntas](/#preguntas) de esta web o pasarse por la calle La Fragua 1 de Móstoles.

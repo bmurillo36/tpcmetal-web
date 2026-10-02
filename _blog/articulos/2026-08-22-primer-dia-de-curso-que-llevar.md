@@ -45,7 +45,7 @@ El último día se entrega el título del curso. Consérvelo bien, que es el doc
 
 ## La oficina, para lo que haga falta antes
 
-Para reservar, preguntar o resolver cualquier duda, atendemos de lunes a jueves de 8 horas a 18 horas y los viernes de 8 horas a 15 horas. Los días que hay formación por la tarde, las aulas siguen abiertas.
+Para reservar, preguntar o resolver cualquier duda, atendemos de lunes a jueves de 8:00 a 18:00 y los viernes de 8:00 a 15:00. Los días que hay formación por la tarde, las aulas siguen abiertas.
 
 Los precios, por si le falta ese dato: 120 € el curso completo de 20 horas, 70 € la parte específica de 6 horas y el reciclaje, 180 € el Nivel Básico de 60 horas y 90 € el de directivos.
 

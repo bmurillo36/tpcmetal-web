@@ -21,7 +21,7 @@ Por eso, cuando alguien llama pidiendo un oficio sin fecha, no le decimos que no
 
 Dos caminos, los dos igual de válidos:
 
-- **Llamar** al 630 29 25 16 o al 91 617 04 23 y contarnos qué necesita. Es lo más rápido, porque en la misma llamada le decimos si hay algo previsto. Atendemos de lunes a jueves de 8 horas a 18 horas y los viernes de 8 horas a 15 horas.
+- **Llamar** al 630 29 25 16 o al 91 617 04 23 y contarnos qué necesita. Es lo más rápido, porque en la misma llamada le decimos si hay algo previsto. Atendemos de lunes a jueves de 8:00 a 18:00 y los viernes de 8:00 a 15:00.
 - **Dejar sus datos** en el formulario de la web, indicando el curso o el oficio. Nosotros le llamamos.
 
 En ambos casos anotamos el oficio concreto. Cuanta más gente pida el mismo, antes sale grupo, así que decirlo no es perder el tiempo: es lo que hace que la convocatoria exista.

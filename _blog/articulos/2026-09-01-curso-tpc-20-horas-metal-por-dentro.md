@@ -39,4 +39,4 @@ Mucha gente confunde las dos cosas y llama pensando que el centro expide la tarj
 
 El curso completo de 20 horas cuesta **120 €**, sea cual sea la especialidad: todas valen lo mismo.
 
-En nuestro centro de Móstoles hay convocatorias abiertas de forma continua, y en el [calendario de cursos](/#calendario) puede ver las próximas semanas con las fechas y los horarios reales, actualizados a diario. Para reservar plaza, el 630 29 25 16 o el 91 617 04 23, de lunes a jueves de 8 horas a 18 horas y los viernes de 8 horas a 15 horas.
+En nuestro centro de Móstoles hay convocatorias abiertas de forma continua, y en el [calendario de cursos](/#calendario) puede ver las próximas semanas con las fechas y los horarios reales, actualizados a diario. Para reservar plaza, el 630 29 25 16 o el 91 617 04 23, de lunes a jueves de 8:00 a 18:00 y los viernes de 8:00 a 15:00.

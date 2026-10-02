@@ -35,6 +35,6 @@ La tarjeta incorpora un código QR que permite, con un móvil, acceder rápidame
 
 Todo este trámite empieza con un requisito que sí depende de nosotros: la formación inicial en prevención de riesgos laborales, presencial, con el título correspondiente. Sin eso no hay expediente que presentar en ningún punto de tramitación.
 
-Si todavía no tiene ese título, en nuestro centro de Móstoles impartimos las cinco especialidades del metal con convocatorias durante toda la semana. Consulte el [calendario de cursos](/#calendario) o llame al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 18 horas y los viernes de 8 horas a 15 horas.
+Si todavía no tiene ese título, en nuestro centro de Móstoles impartimos las cinco especialidades del metal con convocatorias durante toda la semana. Consulte el [calendario de cursos](/#calendario) o llame al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8:00 a 18:00 y los viernes de 8:00 a 15:00.
 
 > Fuente: «Información general» de la Tarjeta Profesional de la Construcción, Fundación Laboral de la Construcción, febrero de 2026.
