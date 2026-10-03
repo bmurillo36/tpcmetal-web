@@ -1,5 +1,5 @@
-titulo: Cómo renovar la Tarjeta TPC cuando caduca a los cinco años
-descripcion: La Tarjeta Profesional de la Construcción caduca a los cinco años. Qué hay que acreditar, qué documentos llevar y qué pasa si ya está vencida, según la Fundación Laboral de la Construcción.
+titulo: Renovar la tarjeta TPC: ¿se puede online? Papeles y plazos
+descripcion: La tarjeta TPC caduca a los cinco años. Qué hay que acreditar, qué papeles llevar, si se puede renovar online y qué pasa si ya está vencida.
 fecha: 2026-09-02
 slug: como-renovar-la-tarjeta-tpc-del-metal
 categoria: Renovación
@@ -34,6 +34,13 @@ Según la página de renovación de la Fundación, hay que acudir a un punto de 
 
 Los puntos de tramitación son los centros de la Fundación Laboral de la Construcción, las sedes de las asociaciones empresariales de la Confederación Nacional de la Construcción y las de CCOO del Hábitat y UGT FICA. La Fundación tiene además un teléfono gratuito, el 900 11 21 21, y un directorio de puntos en su web.
 
+## ¿Se puede renovar la TPC online?
+
+Es de las dudas que más nos llegan, y conviene separar dos cosas:
+
+- **La formación no se hace online.** Para renovar no hay que repetirla, y si en algún momento te falta un curso, los cursos TPC solo valen si son presenciales, salvo el de directivos de 10 horas.
+- **El trámite de renovación** se presenta en un punto de tramitación con los documentos de arriba. Si quieres saber si tu punto admite otra vía, pregúntalo en el teléfono gratuito de la Fundación, el 900 11 21 21, o mira su directorio de puntos.
+
 ## Y si ya está caducada
 
 No pasa nada. La Fundación admite expresamente la renovación de tarjetas caducadas, con los mismos requisitos. Lo único que pierdes mientras tanto es la posibilidad de acreditar tu formación en la obra con la tarjeta en la mano, así que cuanto antes la tramites, mejor.
@@ -48,4 +55,4 @@ Cuando el expediente está completo y correcto, la tarjeta se entrega en un plaz
 
 ## Si lo que te falta es la formación
 
-Si nunca has tenido la tarjeta, o la obra te pide el reciclaje de 4 horas o el curso de 6 horas de tu oficio, en nuestras aulas de Móstoles hay convocatorias presenciales todas las semanas. Mira el [calendario de cursos](/#calendario) o llámanos, y te decimos qué curso te corresponde según tu oficio del metal y lo que te pide la empresa.
+Si nunca has tenido la tarjeta, o la obra te pide el reciclaje de 4 horas o el curso de 6 horas de tu oficio, en nuestras aulas de Móstoles hay convocatorias presenciales todas las semanas. Mira el [calendario de cursos](/#calendario), los [cursos TPC del metal en Madrid](/) o llámanos, y te decimos qué curso te corresponde según tu oficio del metal y lo que te pide la empresa.
