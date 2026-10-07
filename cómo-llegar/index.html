@@ -177,7 +177,19 @@ gtag('consent','default',{'analytics_storage':'denied','functionality_storage':'
     </div>
     <div class="col-half-r">
       <div class="map-frame">
-        <iframe title="Mapa de situación del centro de cursos TPC del metal en Móstoles" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBzEv8jQUVh3Y9XFc6AyFEiWYl-UqE4z70&amp;q=40.341751%2C-3.863215&amp;zoom=14&amp;language=es-ES&amp;maptype=roadmap" allowfullscreen="allowfullscreen" referrerpolicy="no-referrer-when-downgrade" loading="lazy"></iframe>
+        <div class="map-fachada">
+          <img src="../img/mapa-tpc-metal-mostoles-640.webp" srcset="../img/mapa-tpc-metal-mostoles-640.webp 640w, ../img/mapa-tpc-metal-mostoles-1280.webp 1280w" sizes="(max-width:900px) 100vw, 50vw" width="1280" height="920" loading="lazy" decoding="async" alt="Mapa de situación del centro de cursos TPC del metal: Calle La Fragua 1, en el polígono Los Rosales de Móstoles, junto a la rotonda de la A-5 y la M-50">
+          <span class="map-fachada__cred">© colaboradores de OpenStreetMap</span>
+          <button type="button" class="btn btn--ember map-fachada__btn" data-mapa="https://www.google.com/maps?q=40.341751,-3.863215&amp;z=14&amp;hl=es&amp;output=embed">Ver mapa</button>
+        </div>
+        <script>
+        document.querySelector('.map-fachada__btn').addEventListener('click',function(){
+          var f=document.createElement('iframe');
+          f.title='Mapa de situación del centro de cursos TPC del metal en Móstoles';
+          f.src=this.getAttribute('data-mapa'); f.allowFullscreen=true; f.referrerPolicy='no-referrer-when-downgrade';
+          var c=this.parentNode; c.parentNode.replaceChild(f,c); f.focus();
+        });
+        </script>
       </div>
       <p class="caption"><strong>Calle La Fragua 1, Móstoles.</strong> Coordenadas 40.341751, -3.863215.</p>
 
