@@ -36,7 +36,7 @@ gtag('consent','default',{'analytics_storage':'denied','functionality_storage':'
 <script>
 /* Desde el 09/09/2026 el contenedor no se pide al abrir la pagina, sino en
    cuanto el visitante hace algo (tocar, bajar, teclear, mover el raton), o a
-   los 3 segundos, o si se va de la pestana: lo que pase antes. El contenedor
+   los 4 segundos, o si se va de la pestana: lo que pase antes. El contenedor
    es el mismo de siempre, GTM-5NTZ43SH, y el modo de consentimiento sigue
    estando arriba, antes que nada.
    Por que: entre Tag Manager y Cookiebot eran 344 KB de JavaScript de fuera
@@ -57,7 +57,7 @@ gtag('consent','default',{'analytics_storage':'denied','functionality_storage':'
     d.addEventListener(ev,pedir,{once:true,passive:true,capture:true});
   });
   d.addEventListener('visibilitychange',function(){ if(d.visibilityState==='hidden') pedir(); });
-  setTimeout(pedir,3000);
+  setTimeout(pedir,4000);
 })(window,document,'script','dataLayer','GTM-5NTZ43SH');
 </script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Autónomos y colegiados del metal, su renovación a los cinco años", "description": "Renovar la tarjeta no es igual para todos. El autónomo y el colegiado del metal vuelven a aportar casi el mismo paquete de papeles de la primera solicitud.", "datePublished": "2026-10-05", "dateModified": "2026-10-05", "inLanguage": "es", "mainEntityOfPage": "https://www.tpcmetal.es/blog/autonomos-colegiados-metal-renovacion-cinco-anos/", "url": "https://www.tpcmetal.es/blog/autonomos-colegiados-metal-renovacion-cinco-anos/", "articleSection": "Renovación", "author": {"@type": "Organization", "name": "Prevención Siglo 21", "url": "https://www.tpcmetal.es"}, "publisher": {"@type": "Organization", "name": "Prevención Siglo 21", "url": "https://www.tpcmetal.es"}, "isPartOf": {"@type": "Blog", "name": "Blog de la Tarjeta TPC del Metal", "url": "https://www.tpcmetal.es/blog/"}, "image": "https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg"}</script>
