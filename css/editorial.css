@@ -362,6 +362,8 @@ h2.display,h2.h2{ margin-bottom:var(--space-m); }
 }
 .nav a:hover,.nav a:focus-visible{ color:var(--ink); border-bottom-color:var(--ember); }
 .nav a[aria-current="page"]{ color:var(--ink); border-bottom-color:var(--ink); }
+/* el boton del menu conserva su texto blanco (.nav a lo pisaba en contacto, blog...) */
+.nav a.btn,.nav a.btn:hover,.nav a.btn:focus-visible{ color:#fff; }
 @media (max-width:900px){ .nav{ display:none; } }
 
 /* Barra de teléfonos — visible siempre, tocable en móvil */
