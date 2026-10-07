@@ -123,7 +123,7 @@ def json_ld(a, url):
 def tarjeta(a):
     url = CFG['ruta'] + a['slug'] + '/'
     return ('<article class="%s"><p class="entrada-meta"><span class="entrada-cat">%s</span> · <time datetime="%s">%s</time></p>'
-            '<h3><a href="%s">%s</a></h3><p>%s</p><p><a class="mas" href="%s">Leer el artículo</a></p></article>'
+            '<h2><a href="%s">%s</a></h2><p>%s</p><p><a class="mas" href="%s">Leer el artículo</a></p></article>'
             % (CFG.get('clase_tarjeta', 'tarjeta entrada-blog'), html.escape(a['categoria']), a['fecha'], fecha_texto(a['fecha']), url, html.escape(a['titulo']), html.escape(a['descripcion']), url))
 
 def rejilla(contenido):
