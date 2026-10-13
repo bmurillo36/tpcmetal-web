@@ -1,5 +1,5 @@
 titulo: Por qué el curso de la tarjeta no vale hecho por internet
-descripcion: La formación para la Tarjeta Profesional de la Construcción solo es válida si se cursa de forma presencial. Cuál es la única excepción y cómo reconocer una oferta que no sirve.
+descripcion: La formación para la Tarjeta Profesional de la Construcción solo es válida si se cursa de forma presencial. Cuáles son las excepciones y cómo reconocer una oferta que no sirve.
 fecha: 2026-08-19
 slug: por-que-los-cursos-tpc-no-valen-online
 categoria: Formación
@@ -7,7 +7,7 @@ entradilla: Cada mes atendemos a alguien que ya pagó un curso por internet y se
 
 ## La regla, en una línea
 
-Los cursos para la Tarjeta Profesional de la Construcción solo son válidos si se hacen presencialmente. Hay una única excepción, el curso de directivos de empresa de diez horas, que sí se puede cursar on-line porque no es formación de acceso a obra.
+Los cursos para la Tarjeta Profesional de la Construcción solo son válidos si se hacen presencialmente. Hay dos excepciones: el curso de directivos de empresa de diez horas, que sí se puede cursar on-line porque no es formación de acceso a obra, y el Nivel Básico de sesenta horas, que tiene veinte horas presenciales y cuarenta on-line.
 
 Todo lo demás, el completo de veinte horas, la parte específica de seis, el reciclaje y el Nivel Básico, exige aula.
 
