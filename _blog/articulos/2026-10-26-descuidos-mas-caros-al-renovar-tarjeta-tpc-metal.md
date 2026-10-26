@@ -35,6 +35,6 @@ Si al expediente le falta algo, te pueden pedir que lo subsanes en un plazo máx
 
 ## Si lo que te falta es la formación
 
-Si al preparar la renovación descubres que tu empresa te pide ponerte al día, o que vas a trabajar en un oficio del metal que no tenías, en nuestro centro de Móstoles tienes el reciclaje de 4 horas, la parte específica de 6 horas y el [curso de 20 horas](/#curso-20h), todos presenciales. Consulta el [calendario de cursos](/#calendario) o llámanos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 17 horas y los viernes de 8 horas a 15 horas.
+Si al preparar la renovación descubres que tu empresa te pide ponerte al día, o que vas a trabajar en un oficio del metal que no tenías, en nuestro centro de Móstoles tienes el reciclaje de 4 horas, la parte específica de 6 horas y el [curso de 20 horas](/#curso-20h), todos presenciales. Consulta el [calendario de cursos](/#calendario) o llámanos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8:00 a 18:00 y los viernes de 8:00 a 15:00.
 
 > Fuente: «Pasos a seguir para la renovación de la TPC», «Información general» de la Tarjeta Profesional de la Construcción e «Información general para personas acogidas al régimen especial de trabajadores autónomos y profesionales colegiados», Fundación Laboral de la Construcción, febrero de 2026.

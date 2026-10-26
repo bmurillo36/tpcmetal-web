@@ -35,6 +35,6 @@ Un error en la categoría no cambia la fecha de caducidad de la tarjeta. Lo que 
 
 ## Antes de todo esto está la formación
 
-Nada de esto tiene sentido sin haber hecho primero el curso de la especialidad del metal que corresponda. Si todavía te falta, en nuestro centro de Móstoles impartimos el [curso de 20 horas](/#curso-20h) de forma presencial en las cinco especialidades del metal. Consulta el [calendario de cursos](/#calendario) o llámanos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 17 horas y los viernes de 8 horas a 15 horas.
+Nada de esto tiene sentido sin haber hecho primero el curso de la especialidad del metal que corresponda. Si todavía te falta, en nuestro centro de Móstoles impartimos el [curso de 20 horas](/#curso-20h) de forma presencial en las cinco especialidades del metal. Consulta el [calendario de cursos](/#calendario) o llámanos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8:00 a 18:00 y los viernes de 8:00 a 15:00.
 
 > Fuente: «Información general» de la Tarjeta Profesional de la Construcción y formulario de solicitud, Fundación Laboral de la Construcción, febrero de 2026.

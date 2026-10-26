@@ -31,4 +31,4 @@ Si tu trabajo consiste en manejar equipos de elevación para montar, reparar o m
 
 ## Si tu caso es el del metal
 
-En nuestro centro de Móstoles impartimos esta especialidad de forma presencial, junto con las otras cuatro del metal. Consulta las [especialidades](/#especialidades) y el [calendario de cursos](/#calendario), o llámanos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 17 horas y los viernes de 8 horas a 15 horas, y te confirmamos si esta es la tuya.
+En nuestro centro de Móstoles impartimos esta especialidad de forma presencial, junto con las otras cuatro del metal. Consulta las [especialidades](/#especialidades) y el [calendario de cursos](/#calendario), o llámanos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8:00 a 18:00 y los viernes de 8:00 a 15:00, y te confirmamos si esta es la tuya.

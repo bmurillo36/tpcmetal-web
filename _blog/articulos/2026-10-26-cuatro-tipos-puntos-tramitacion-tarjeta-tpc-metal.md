@@ -38,6 +38,6 @@ Además de ir en persona, la Fundación contempla que la empresa lleve la docume
 
 ## Antes de llegar a cualquiera de los cuatro
 
-Sea cual sea el punto que elijas, vas a necesitar el título de la formación inicial en prevención de tu oficio del metal. Si todavía no lo tienes, en nuestro centro de Móstoles impartimos el [curso de 20 horas](/#curso-20h) de forma presencial en las cinco especialidades del metal. Consulta el [calendario de cursos](/#calendario) o llámanos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 17 horas y los viernes de 8 horas a 15 horas.
+Sea cual sea el punto que elijas, vas a necesitar el título de la formación inicial en prevención de tu oficio del metal. Si todavía no lo tienes, en nuestro centro de Móstoles impartimos el [curso de 20 horas](/#curso-20h) de forma presencial en las cinco especialidades del metal. Consulta el [calendario de cursos](/#calendario) o llámanos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8:00 a 18:00 y los viernes de 8:00 a 15:00.
 
 > Fuente: «Información general» de la Tarjeta Profesional de la Construcción, Fundación Laboral de la Construcción, febrero de 2026.

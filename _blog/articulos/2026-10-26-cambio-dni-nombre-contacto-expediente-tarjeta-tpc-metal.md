@@ -35,6 +35,6 @@ Actualizar tus datos no afecta a tu formación ni a la fecha de caducidad de la 
 
 ## Antes de cualquier trámite está el curso
 
-Si todavía no tienes la tarjeta porque te falta la formación inicial de tu oficio del metal, en nuestro centro de Móstoles impartimos el [curso de 20 horas](/#curso-20h) de forma presencial en las cinco especialidades del metal. Consulta el [calendario de cursos](/#calendario) o llámanos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 17 horas y los viernes de 8 horas a 15 horas.
+Si todavía no tienes la tarjeta porque te falta la formación inicial de tu oficio del metal, en nuestro centro de Móstoles impartimos el [curso de 20 horas](/#curso-20h) de forma presencial en las cinco especialidades del metal. Consulta el [calendario de cursos](/#calendario) o llámanos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8:00 a 18:00 y los viernes de 8:00 a 15:00.
 
 > Fuente: «Información general» de la Tarjeta Profesional de la Construcción y formulario de solicitud, Fundación Laboral de la Construcción, febrero de 2026.

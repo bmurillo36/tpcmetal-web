@@ -45,6 +45,6 @@ Esto no afecta solo a quien nunca ha trabajado. También a quien lleva años en 
 
 ## Si tu caso es justo este
 
-Si estás empezando en el metal, puedes hacer ya la formación inicial en nuestro centro de Móstoles y tenerla lista para cuando llegue tu primer contrato. Lo habitual es el [curso de 20 horas](/#curso-20h), presencial, con la parte común y la parte específica de tu oficio. Consulta las [cinco especialidades](/#especialidades) y el [calendario de cursos](/#calendario), o llámanos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 17 horas y los viernes de 8 horas a 15 horas, y te orientamos sobre cuál te corresponde.
+Si estás empezando en el metal, puedes hacer ya la formación inicial en nuestro centro de Móstoles y tenerla lista para cuando llegue tu primer contrato. Lo habitual es el [curso de 20 horas](/#curso-20h), presencial, con la parte común y la parte específica de tu oficio. Consulta las [cinco especialidades](/#especialidades) y el [calendario de cursos](/#calendario), o llámanos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8:00 a 18:00 y los viernes de 8:00 a 15:00, y te orientamos sobre cuál te corresponde.
 
 > Fuente: «Información general» de la Tarjeta Profesional de la Construcción, Fundación Laboral de la Construcción, febrero de 2026.

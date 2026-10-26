@@ -35,6 +35,6 @@ El caso contrario también se da. Pensemos en alguien que hizo el Nivel Básico 
 
 ## Si tu caso es parecido
 
-Si en tu empresa del metal te han pedido el Nivel Básico además del curso de tu oficio, o al revés, en nuestro centro de Móstoles tenemos los dos cursos. Consulta el [calendario de cursos](/#calendario) o llámanos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 17 horas y los viernes de 8 horas a 15 horas, y te decimos cómo encajarlos.
+Si en tu empresa del metal te han pedido el Nivel Básico además del curso de tu oficio, o al revés, en nuestro centro de Móstoles tenemos los dos cursos. Consulta el [calendario de cursos](/#calendario) o llámanos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8:00 a 18:00 y los viernes de 8:00 a 15:00, y te decimos cómo encajarlos.
 
 > Fuente: «Información general» de la Tarjeta Profesional de la Construcción, Fundación Laboral de la Construcción, febrero de 2026.

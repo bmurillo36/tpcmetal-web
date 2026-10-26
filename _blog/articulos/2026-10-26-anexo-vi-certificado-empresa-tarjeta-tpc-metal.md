@@ -38,6 +38,6 @@ Lo anterior corresponde a los trabajadores por cuenta ajena, en régimen general
 
 ## Antes de cualquier papel está la formación
 
-Ninguno de estos documentos sustituye al título de la formación inicial en prevención de riesgos laborales de tu oficio del metal, que es imprescindible en todos los casos. Si todavía te falta, el [curso de 20 horas](/#curso-20h) se hace de forma presencial en nuestro centro de Móstoles, en cualquiera de las cinco especialidades del metal, y al terminar te entregamos el título. Consulta el [calendario de cursos](/#calendario) o llámanos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 17 horas y los viernes de 8 horas a 15 horas.
+Ninguno de estos documentos sustituye al título de la formación inicial en prevención de riesgos laborales de tu oficio del metal, que es imprescindible en todos los casos. Si todavía te falta, el [curso de 20 horas](/#curso-20h) se hace de forma presencial en nuestro centro de Móstoles, en cualquiera de las cinco especialidades del metal, y al terminar te entregamos el título. Consulta el [calendario de cursos](/#calendario) o llámanos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8:00 a 18:00 y los viernes de 8:00 a 15:00.
 
 > Fuente: «Información general» de la Tarjeta Profesional de la Construcción e «Información general para personas acogidas al régimen especial de trabajadores autónomos y profesionales colegiados», Fundación Laboral de la Construcción, febrero de 2026.

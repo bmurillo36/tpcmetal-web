@@ -35,6 +35,6 @@ La renovación de la tarjeta no exige repetir la formación en prevención. Otra
 
 ## Si lo que te falta es la formación
 
-Si al revisar tu situación descubres que tu título antiguo no corresponde al oficio que vas a ejercer, o que nunca llegaste a hacer el curso, en nuestro centro de Móstoles tienes el [curso de 20 horas](/#curso-20h), presencial, en cualquiera de las cinco especialidades del metal, y el específico de 6 horas si ya tienes la parte común. Consulta el [calendario de cursos](/#calendario) o llámanos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 17 horas y los viernes de 8 horas a 15 horas.
+Si al revisar tu situación descubres que tu título antiguo no corresponde al oficio que vas a ejercer, o que nunca llegaste a hacer el curso, en nuestro centro de Móstoles tienes el [curso de 20 horas](/#curso-20h), presencial, en cualquiera de las cinco especialidades del metal, y el específico de 6 horas si ya tienes la parte común. Consulta el [calendario de cursos](/#calendario) o llámanos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8:00 a 18:00 y los viernes de 8:00 a 15:00.
 
 > Fuente: «Pasos a seguir para la renovación de la TPC» e «Información general» de la Tarjeta Profesional de la Construcción, Fundación Laboral de la Construcción, febrero de 2026.

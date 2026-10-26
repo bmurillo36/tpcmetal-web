@@ -37,6 +37,6 @@ El impreso recoge datos, no documentos. Por mucho que lo rellenes entero, sigues
 
 ## Antes del impreso está el curso
 
-Nada de este trámite tiene sentido sin haber hecho antes la formación inicial en prevención de riesgos laborales de tu oficio del metal. Lo más habitual es el [curso de 20 horas](/#curso-20h), que reúne la parte común y la parte específica de tu oficio y se hace de forma presencial en nuestro centro de Móstoles, en cualquiera de las cinco especialidades del metal. Consulta el [calendario de cursos](/#calendario) o llámanos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8 horas a 17 horas y los viernes de 8 horas a 15 horas.
+Nada de este trámite tiene sentido sin haber hecho antes la formación inicial en prevención de riesgos laborales de tu oficio del metal. Lo más habitual es el [curso de 20 horas](/#curso-20h), que reúne la parte común y la parte específica de tu oficio y se hace de forma presencial en nuestro centro de Móstoles, en cualquiera de las cinco especialidades del metal. Consulta el [calendario de cursos](/#calendario) o llámanos al 630 29 25 16 o al 91 617 04 23, de lunes a jueves de 8:00 a 18:00 y los viernes de 8:00 a 15:00.
 
 > Fuente: Formulario de solicitud e «Información general para personas acogidas al régimen especial de trabajadores autónomos y profesionales colegiados», Fundación Laboral de la Construcción, febrero de 2026.
