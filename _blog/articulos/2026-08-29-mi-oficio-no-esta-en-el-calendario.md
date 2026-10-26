@@ -32,9 +32,9 @@ A partir de las diez de la mañana ya no ofrecemos plaza en un curso que empieza
 
 Dicho de otro modo: si necesita entrar en una convocatoria que arranca hoy, llame temprano.
 
-## Y si el curso que le piden ya no existe
+## Y si le piden el curso de ocho horas
 
-Sucede con el antiguo curso de ocho horas, que todavía anda circulando por ahí y que hoy no es el itinerario válido. Quien lo necesite tiene que hacer el de veinte horas, que es el homologado y cuesta 120 €.
+El curso de ocho horas sigue siendo válido y lo damos con fecha fija, aunque hoy casi nadie lo pide: el de veinte horas, que cuesta 120 €, lo incluye y es el más demandado.
 
 Si le han pedido por escrito un curso con un nombre raro o antiguo, léanoslo por teléfono. Es rápido de aclarar y evita que pague por algo que no le van a aceptar.
 

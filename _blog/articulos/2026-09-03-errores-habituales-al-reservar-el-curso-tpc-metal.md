@@ -25,9 +25,9 @@ En los cursos de veinte y de sesenta horas, el calendario muestra un rango: desd
 
 El título sale a nombre de una persona concreta, con su documento de identidad. Sin él en la mano el primer día, no podemos registrarle en el grupo, por mucho que tenga la plaza reservada. No hace falta nada más, ni carpetas ni apuntes de otros cursos, pero esto sí es imprescindible.
 
-## Confiar en el antiguo curso de ocho horas
+## Pedir el curso de ocho horas cuando le piden un oficio
 
-Todavía circula por ahí gente que cree que el curso de ocho horas sigue siendo válido. No lo es. El itinerario homologado hoy es el completo de veinte horas. Si le han pedido por escrito un curso con un nombre que no reconoce o que le suena antiguo, léanoslo por teléfono antes de matricularse.
+El curso de ocho horas sigue siendo válido, pero no acredita un oficio. Si en la obra le piden la formación de su oficio, lo que necesita es el de veinte horas, que ya incluye el de ocho y es el más demandado. Si le han pedido por escrito un curso con un nombre que no reconoce o que le suena antiguo, léanoslo por teléfono antes de matricularse.
 
 ## Dejar la renovación de la tarjeta para el último momento
 
