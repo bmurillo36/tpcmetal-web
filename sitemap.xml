@@ -38,9 +38,33 @@
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tpcmetal.es/blog/faltar-un-dia-curso-20-horas-metal/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.tpcmetal.es/blog/empresa-varios-oficios-curso-20-horas-grupos/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.tpcmetal.es/blog/curso-20-horas-reciclaje-4-horas-no-es-lo-mismo/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.tpcmetal.es/blog/categoria-profesional-no-decide-especialidad-curso-20h/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/reservar-plaza-curso-20-horas-metal-paso-a-paso/</loc>
