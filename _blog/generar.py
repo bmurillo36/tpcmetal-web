@@ -147,6 +147,9 @@ def main():
         rel_html = ''.join(tarjeta(b) for b in relacionados) if relacionados else ''
         pagina = rellena(PLANTILLA, {
             'TITULO': html.escape(a['titulo']), 'DESCRIPCION': html.escape(a['descripcion']),
+            # titulo_seo (opcional, 10/11/2026): <title> y og:title propios, sin el «| Tarjeta TPC Sector del Metal»
+            'TITULO_HEAD': html.escape(a.get('titulo_seo') or a['titulo'] + ' | Tarjeta TPC Sector del Metal'),
+            'TITULO_OG': html.escape(a.get('titulo_seo') or a['titulo']),
             'URL': url, 'RUTA_BLOG': CFG['ruta'], 'NOMBRE_BLOG': html.escape(CFG['nombre_blog']),
             'FECHA_ISO': a['fecha'], 'FECHA_TEXTO': fecha_texto(a['fecha']),
             'CATEGORIA': html.escape(a['categoria']), 'ENTRADILLA': html.escape(a['entradilla']),

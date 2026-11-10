@@ -1,4 +1,5 @@
 titulo: Qué es la Tarjeta TPC y quién puede pedirla en el metal
+titulo_seo: Qué es la tarjeta TPC del metal y quién puede pedirla
 descripcion: Qué acredita la Tarjeta Profesional de la Construcción, qué aporta a quien la lleva y quién puede solicitarla trabajando en el sector del metal.
 fecha: 2026-09-06
 slug: que-es-la-tarjeta-tpc-y-quien-puede-pedirla-metal
