@@ -192,5 +192,9 @@ def main():
     print('blog generado: %d artículos publicados (%d en espera por fecha)' % (len(publicados), len(articulos) - len(publicados)))
     for a in publicados[:10]: print('  ', a['fecha'], CFG['ruta'] + a['slug'] + '/')
 
+    # 10/11/2026: las imágenes de cada página van al sitemap (Google Imágenes). Repetible.
+    import sitemap_imagenes
+    sitemap_imagenes.poner(RAIZ)
+
 if __name__ == '__main__':
     main()

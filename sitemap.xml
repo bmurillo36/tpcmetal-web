@@ -1,531 +1,531 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.tpcmetal.es/</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>1.0</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-trabajador-cinturon-herramientas.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/contacto/</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.8</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/c%C3%B3mo-llegar/</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.7</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image><image:image><image:loc>https://www.tpcmetal.es/img/mapa-tpc-metal-mostoles-640.webp</image:loc></image:image><image:image><image:loc>https://www.tpcmetal.es/img/como-llegar-tpc-metal-mostoles-autobuses-metro.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/aviso-legal/</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.3</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/pol%C3%ADtica-de-cookies/</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.3</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/sitemap/</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.3</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/</loc>
     <lastmod>2026-11-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.8</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/faltar-un-dia-curso-20-horas-metal/</loc>
     <lastmod>2026-11-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/empresa-varios-oficios-curso-20-horas-grupos/</loc>
     <lastmod>2026-11-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/curso-20-horas-reciclaje-4-horas-no-es-lo-mismo/</loc>
     <lastmod>2026-11-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/categoria-profesional-no-decide-especialidad-curso-20h/</loc>
     <lastmod>2026-11-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/reservar-plaza-curso-20-horas-metal-paso-a-paso/</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/reciclaje-4-horas-no-es-renovar-tarjeta/</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/nivel-basico-y-directivos-unica-parte-online/</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/curso-directivos-no-sustituye-curso-de-oficio/</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/curso-20-horas-y-6-horas-no-es-lo-mismo/</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/curso-20-horas-se-elige-especialidad-al-reservar/</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/curso-20-horas-primera-vez-tarjeta-tpc-metal/</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/volver-al-metal-despues-de-anos-tarjeta-tpc/</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/requisitos-para-pedir-la-tarjeta-tpc-metal/</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/nivel-basico-no-sustituye-curso-oficio-metal/</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/descuidos-mas-caros-al-renovar-tarjeta-tpc-metal/</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/cuatro-tipos-puntos-tramitacion-tarjeta-tpc-metal/</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/categoria-profesional-mal-certificada-tarjeta-tpc-metal/</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/cambio-dni-nombre-contacto-expediente-tarjeta-tpc-metal/</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/aparatos-elevadores-no-es-instalador-ascensores-metal/</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/anexo-vi-certificado-empresa-tarjeta-tpc-metal/</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/anexo-v-formulario-solicitud-tarjeta-tpc-metal/</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/veinticinco-euros-tasa-tarjeta-tpc-metal/</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/tarjeta-tpc-metal-personal-intransferible/</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/subsanacion-diez-dias-expediente-tarjeta-tpc-metal/</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/nivel-basico-60-horas-presencial-online-metal/</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/mudanza-domicilio-expediente-tarjeta-tpc-metal/</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/informe-vida-laboral-plazo-tarjeta-tpc-metal/</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/grupos-calendario-cursos-tpc-metal/</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/categoria-profesional-periodo-prueba-tarjeta-tpc-metal/</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/cambio-regimen-renovacion-tarjeta-tpc-metal/</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/tarjeta-tpc-metal-vale-en-toda-espana/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/sumar-oficio-nuevo-al-renovar-tarjeta-tpc-metal/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/que-significa-que-un-centro-este-homologado/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/parte-comun-curso-20-horas-nivel-basico-60-metal/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/papeles-opcionales-expediente-tarjeta-tpc-metal/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/elegir-turno-curso-tpc-metal-mostoles/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/dos-oficios-del-metal-que-curso-conviene/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/comprobar-caducidad-tarjeta-tpc-metal/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/codigo-qr-tarjeta-tpc-metal-datos/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/cambiar-de-oficio-metal-sin-repetir-curso/</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/tres-datos-tarjeta-tpc-metal-ademas-del-qr/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/treinta-dias-sesenta-meses-renovar-tarjeta-tpc-metal/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/titulo-vale-igual-otro-centro-homologado-metal/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/soldadura-en-el-metal-el-riesgo-es-el-arco/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/profesionales-colegiados-metal-tarjeta-tpc-mutualidad/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/mantenimiento-reparacion-estructuras-metalicas-curso-tpc/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/lo-que-la-tarjeta-tpc-no-acredita-metal/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/incapacidad-temporal-treinta-dias-alta-tarjeta-tpc-metal/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/autonomos-colegiados-metal-renovacion-cinco-anos/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/alumnado-formacion-alternancia-metal-tarjeta-tpc/</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/trabajadores-ett-tarjeta-tpc-metal/</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/tpc-empresa-verificar-formacion-plantilla-metal/</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/reconocimiento-medico-y-tarjeta-tpc-metal/</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/fontaneria-climatizacion-gas-curso-tpc-metal/</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/duplicado-tarjeta-tpc-metal-robo-perdida/</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/denegacion-tarjeta-tpc-reclamacion-plazo/</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/curso-tpc-directivos-online-metal/</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/control-acceso-obra-tarjeta-tpc-metal/</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/como-es-una-semana-de-cursos-tpc-mostoles/</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/cerrajeria-carpinteria-metalica-curso-tpc/</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/que-curso-tpc-del-metal-necesito/</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/que-es-la-tarjeta-tpc-y-quien-puede-pedirla-metal/</loc>
     <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/especialidades-del-metal-parte-especifica/</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/tramite-tarjeta-tpc-paso-a-paso-mostoles/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/errores-habituales-al-reservar-el-curso-tpc-metal/</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/como-renovar-la-tarjeta-tpc-del-metal/</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/curso-tpc-20-horas-metal-por-dentro/</loc>
     <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/preguntas-frecuentes-alumnos-curso-tpc-metal/</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/mi-oficio-no-esta-en-el-calendario/</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/electricidad-alta-y-baja-tension-en-el-metal/</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/reciclaje-4-horas-metal-como-se-hace/</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/caldereria-y-soldadura-formacion-tpc-metal/</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/primer-dia-de-curso-que-llevar/</loc>
     <lastmod>2026-08-22</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/montaje-estructuras-andamios-aparatos-elevadores-metal/</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/por-que-los-cursos-tpc-no-valen-online/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/convenio-del-metal-y-convenio-de-la-construccion/</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/del-titulo-del-curso-a-la-tarjeta-tpc/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/derechos-del-titular-de-la-tarjeta-tpc/</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/cursos-tpc-para-empresas-del-metal/</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/autonomos-del-metal-tarjeta-tpc-documentacion/</loc>
     <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/nivel-basico-60-horas-construccion-metal/</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
 </urlset>
