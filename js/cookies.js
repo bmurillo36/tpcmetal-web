@@ -25,7 +25,7 @@
   "use strict";
 
   var CLAVE = "tpcmetal_cookies";
-  var VERSION = 1;            // súbela si cambian las categorías: vuelve a preguntar
+  var VERSION = 2;            // súbela si cambian las categorías: vuelve a preguntar
   var MESES = 24;             // máximo que recomienda la AEPD
 
   /* --- Memoria de la decisión ------------------------------------------- */
@@ -43,7 +43,7 @@
   }
 
   function guardar(consent) {
-    var dato = { v: VERSION, ts: Date.now(), analisis: !!consent.analisis, preferencias: !!consent.preferencias };
+    var dato = { v: VERSION, ts: Date.now(), analisis: !!consent.analisis, preferencias: !!consent.preferencias, publicidad: !!consent.publicidad };
     try { localStorage.setItem(CLAVE, JSON.stringify(dato)); } catch (e) {}
     aplicar(dato);
     ocultarBanner();
@@ -57,16 +57,17 @@
       window.gtag("consent", "update", {
         analytics_storage:     c.analisis     ? "granted" : "denied",
         functionality_storage: c.preferencias ? "granted" : "denied",
-        ad_storage:            "denied",
-        ad_user_data:          "denied",
-        ad_personalization:    "denied"
+        ad_storage:            c.publicidad   ? "granted" : "denied",
+        ad_user_data:          c.publicidad   ? "granted" : "denied",
+        ad_personalization:    c.publicidad   ? "granted" : "denied"
       });
     }
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
       event: "consentimiento_cookies",
       cookies_analisis: !!c.analisis,
-      cookies_preferencias: !!c.preferencias
+      cookies_preferencias: !!c.preferencias,
+      cookies_publicidad: !!c.publicidad
     });
   }
 
@@ -94,7 +95,7 @@
       '<div class="ck-banner__inner">' +
         '<div class="ck-banner__texto">' +
           '<p class="ck-titulo">Su privacidad</p>' +
-          '<p>Usamos cookies propias y de terceros con fines técnicos, de preferencias y de análisis. ' +
+          '<p>Usamos cookies propias y de terceros con fines técnicos, de preferencias, de análisis y de publicidad (las de Google para medir visitas y anuncios). ' +
           'Puede aceptarlas todas, rechazarlas o elegir cuáles. Las opcionales no se activan hasta que usted lo consienta. ' +
           'Tiene el detalle en la <a href="' + pol + '">política de cookies</a>.</p>' +
         '</div>' +
@@ -120,6 +121,7 @@
           grupo("Técnicas (necesarias)", "Hacen funcionar la web y no se pueden desactivar. No guardan nada sobre usted.", null, true) +
           grupo("Preferencias", "Recuerdan opciones que usted elige, para no volver a preguntárselas.", "ck-preferencias", false) +
           grupo("Análisis", "Nos dicen, en conjunto y sin identificar a nadie, qué páginas se visitan, para mejorarlas.", "ck-analisis", false) +
+          grupo("Publicidad", "Google Ads: miden si una visita que llega desde nuestros anuncios acaba pidiendo información (conversiones) y permiten volver a mostrarle nuestros anuncios (remarketing).", "ck-publicidad", false) +
         '</div>' +
         '<div class="ck-panel__pie">' +
           '<button type="button" class="ck-btn" data-ck="rechazar">Rechazar todas</button>' +
@@ -156,12 +158,13 @@
       return;
     }
     var q = b.getAttribute("data-ck");
-    if (q === "aceptar")    guardar({ analisis: true,  preferencias: true  });
-    if (q === "rechazar")   guardar({ analisis: false, preferencias: false });
+    if (q === "aceptar")    guardar({ analisis: true,  preferencias: true,  publicidad: true  });
+    if (q === "rechazar")   guardar({ analisis: false, preferencias: false, publicidad: false });
     if (q === "configurar") abrirPanel();
     if (q === "guardar")    guardar({
       analisis:     !!(document.getElementById("ck-analisis")     || {}).checked,
-      preferencias: !!(document.getElementById("ck-preferencias") || {}).checked
+      preferencias: !!(document.getElementById("ck-preferencias") || {}).checked,
+      publicidad:   !!(document.getElementById("ck-publicidad")   || {}).checked
     });
   }
 
@@ -171,6 +174,8 @@
     var p = document.getElementById("ck-preferencias");
     if (a) a.checked = c ? !!c.analisis : false;      // por defecto, apagadas
     if (p) p.checked = c ? !!c.preferencias : false;
+    var g = document.getElementById("ck-publicidad");
+    if (g) g.checked = c ? !!c.publicidad : false;
     panel.classList.add("visible");
   }
   function cerrarPanel()  { if (panel)  panel.classList.remove("visible"); }
