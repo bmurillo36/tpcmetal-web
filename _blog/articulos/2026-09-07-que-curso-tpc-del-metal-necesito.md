@@ -45,7 +45,7 @@ El único del catálogo que se hace on-line. Está pensado para responsables y d
 - Nivel Básico de 60 horas: **180 €**
 - Directivos de 10 horas, on-line: **90 €**
 
-Todas las especialidades de 20 horas valen lo mismo, y lo mismo ocurre con las de 6, sea cual sea el oficio. Si pierde el título del curso, el duplicado son 10 €.
+Todas las especialidades de 20 horas tienen el mismo precio, y lo mismo ocurre con las de 6, sea cual sea el oficio. Si pierde el título del curso, el duplicado son 10 €.
 
 ## Y una advertencia que ahorra disgustos
 
