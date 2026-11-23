@@ -55,6 +55,9 @@ gtag('consent','default',{'analytics_storage':'denied','functionality_storage':'
     j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
     f.parentNode.insertBefore(j,f);
   }
+  /* 23/11/2026 (Ana de Dlega): el clic del anuncio (gclid) se guarda en la visita y viaja oculto con el formulario. */
+  try{var g=w.location.search.match(/[?&](gclid|gbraid|wbraid)=([^&#]+)/);if(g)sessionStorage.setItem('clicAnuncio',g[1]+'='+decodeURIComponent(g[2]));}catch(e){}
+  d.addEventListener('submit',function(e){try{var v=sessionStorage.getItem('clicAnuncio'),f=e.target;if(!v||(f.action||'').indexOf('/enviar/')<0||f.querySelector('input[data-clic]'))return;var i=d.createElement('input');i.type='hidden';i.name='_'+v.split('=')[0];i.value=v.slice(v.indexOf('=')+1);i.setAttribute('data-clic','');f.appendChild(i);}catch(er){}},true);
   /* 23/11/2026 (Ana de Dlega, OK de Pedro): quien llega de un anuncio lo pide YA, y se recuerda en la visita. */
   var anuncio=/[?&](gclid|gbraid|wbraid|gad_source)=/.test(w.location.search)||/(^|; )_gcl_(aw|gb|dc)=/.test(d.cookie);
   try{if(anuncio)sessionStorage.setItem('deAnuncio','1');else anuncio=sessionStorage.getItem('deAnuncio')==='1';}catch(e){}
