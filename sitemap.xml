@@ -38,9 +38,15 @@
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.tpcmetal.es/blog/metal-sin-obra-necesitas-tarjeta-tpc/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority><image:image><image:loc>https://www.tpcmetal.es/img/tarjeta-tpc-metal-portada-editorial.svg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.tpcmetal.es/blog/reservar-curso-20-horas-para-otra-persona-metal/</loc>
