@@ -54,6 +54,10 @@ gtag('consent','default',{'analytics_storage':'denied','functionality_storage':'
     j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
     f.parentNode.insertBefore(j,f);
   }
+  /* 23/11/2026 (Ana de Dlega, OK de Pedro): quien llega de un anuncio lo pide YA, y se recuerda en la visita. */
+  var anuncio=/[?&](gclid|gbraid|wbraid|gad_source)=/.test(w.location.search)||/(^|; )_gcl_(aw|gb|dc)=/.test(d.cookie);
+  try{if(anuncio)sessionStorage.setItem('deAnuncio','1');else anuncio=sessionStorage.getItem('deAnuncio')==='1';}catch(e){}
+  if(anuncio){pedir();return;}
   ['pointerdown','touchstart','keydown','scroll','wheel','mousemove'].forEach(function(ev){
     d.addEventListener(ev,pedir,{once:true,passive:true,capture:true});
   });
